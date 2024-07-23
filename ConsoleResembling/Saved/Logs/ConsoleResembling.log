@@ -1071,3 +1071,157 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.07.23-12.44.42:093][  0]LogAssetRegistry: Asset discovery search completed in 13.5677 seconds
 [2024.07.23-12.44.42:094][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
 [2024.07.23-12.44.42:309][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.07.23-12.47.37:661][773]LogHttp: Warning: 0000026335920100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9B9900A8-4E84-5284-AE87-0E87F68F2BBB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f57ee8024e13e1a7205d51969dac8762%7C5b5730aa259149ac9ceddf2ad39a6b73%7C6bf76522-8e7a-485d-be2c-108e82a9e19d&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.07.23-12.47.37:661][773]LogHttp: Warning: 0000026335920100: request failed, libcurl error: 0 (No error)
+[2024.07.23-12.47.37:661][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2636b247eb0 [can pipeline])
+[2024.07.23-12.47.37:661][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.72.130.99) port 443 (#0))
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 5 (We are completely uploaded and fine)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 6 (TLSv1.3 (IN), TLS Unknown, Unknown (21):)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 7 (TLSv1.3 (IN), TLS alert, Client hello (1):)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 8 (Connection died, retrying a fresh connect)
+[2024.07.23-12.47.37:662][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 9 (necessary data rewind wasn't possible)
+[2024.07.23-12.47.37:663][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 10 (Closing connection 0)
+[2024.07.23-12.47.37:663][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 11 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2024.07.23-12.47.37:663][773]LogHttp: Warning: 0000026335920100: libcurl info message cache 12 (TLSv1.3 (OUT), TLS alert, Client hello (1):)
+[2024.07.23-12.47.37:991][774]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9B9900A8-4E84-5284-AE87-0E87F68F2BBB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f57ee8024e13e1a7205d51969dac8762%7C5b5730aa259149ac9ceddf2ad39a6b73%7C6bf76522-8e7a-485d-be2c-108e82a9e19d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.07.23-13.19.33:607][203]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.23-13.19.33:666][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2024.07.23-13.19.33:666][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:ReceiveHit' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2024.07.23-13.19.33:666][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2024.07.23-13.19.33:666][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonProjectile.SKEL_FirstPersonProjectile_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2024.07.23-13.19.33:666][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ReceiveHit' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:668][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.19.33:670][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonHUD.FirstPersonHUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.19.33:670][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.19.33:670][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.19.33:670][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonHUD.SKEL_FirstPersonHUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.19.33:670][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonHUD.FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.19.33:671][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2024.07.23-13.19.33:671][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2024.07.23-13.19.33:671][203]LogMetaData: Removing '/Game/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2024.07.23-13.19.33:766][203]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonProjectileC2F0AE004224FECD0652AB9D4B727BC3.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonProjectile.uasset'
+[2024.07.23-13.19.33:804][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonCharacter" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2024.07.23-13.19.33:865][203]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonCharacter44AAF8AC46C806F894CC75BF4A00671D.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonCharacter.uasset'
+[2024.07.23-13.19.33:870][203]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonCharacterAA8FD8364B0720E325EDF08605383930.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2024.07.23-13.19.33:872][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonHUD" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonHUD.uasset" SILENT=true
+[2024.07.23-13.19.33:889][203]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonHUDA1BE387F40B30D794C50D6BD65B95E81.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonHUD.uasset'
+[2024.07.23-13.19.33:892][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonGameMode" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonGameMode.uasset" SILENT=true
+[2024.07.23-13.19.33:896][203]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonGameModeB503630A459B6F152F6C43B3EDFC2102.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonGameMode.uasset'
+[2024.07.23-13.19.33:901][203]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonGameMode1F04412E4DDCA653A76624BCB0350788.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2024.07.23-13.19.33:991][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.07.23-13.19.34:000][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.07.23-13.19.34:018][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.07.23-13.19.34:025][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.07.23-13.19.34:069][203]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.Default__FirstPersonGameMode_C
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2024.07.23-13.19.34:069][203]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+[2024.07.23-13.19.34:070][203]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPersonHUD.FirstPersonHUD
+[2024.07.23-13.19.34:070][203]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2024.07.23-13.19.41:141][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.07.23-13.19.41:183][532]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonExampleMap55E3751D45B4319126D64CBC2381365F.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2024.07.23-13.19.41:212][532]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.082
+[2024.07.23-13.19.41:237][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.07.23-13.19.41:410][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.07.23-13.19.41:432][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.07.23-13.19.41:446][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.07.23-13.19.41:456][532]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2024.07.23-13.19.41:456][532]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2024.07.23-13.19.43:558][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.07.23-13.19.43:737][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.07.23-13.19.43:758][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.07.23-13.19.43:765][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:439][367]LogMetaData: Removing '/Game/Character/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2024.07.23-13.20.08:510][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/FirstPersonCharacter" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Character/FirstPersonCharacter.uasset" SILENT=true
+[2024.07.23-13.20.08:566][367]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonCharacter5998A21748A05691ACCB9CBA1E78D433.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Character/FirstPersonCharacter.uasset'
+[2024.07.23-13.20.08:568][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonCharacter" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2024.07.23-13.20.08:569][367]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonCharacterB6C4E89F457A27F8EEA0BC9CB50BE9B1.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonCharacter.uasset'
+[2024.07.23-13.20.08:622][367]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.23-13.20.08:622][367]LogContentValidation: Display: Validating Blueprint /Game/Character/FirstPersonCharacter.FirstPersonCharacter
+[2024.07.23-13.20.08:622][367]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2024.07.23-13.20.08:622][367]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2024.07.23-13.20.08:622][367]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+[2024.07.23-13.20.12:256][551]LogMetaData: Removing '/Game/GameMode/FirstPersonGameMode.FirstPersonGameMode_C' ref from Metadata '/Game/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2024.07.23-13.20.12:256][551]LogMetaData: Removing '/Game/GameMode/FirstPersonGameMode.SKEL_FirstPersonGameMode_C' ref from Metadata '/Game/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2024.07.23-13.20.12:257][551]LogMetaData: Removing '/Game/GameMode/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2024.07.23-13.20.12:290][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/FirstPersonGameMode" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/GameMode/FirstPersonGameMode.uasset" SILENT=true
+[2024.07.23-13.20.12:294][551]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonGameModeA3E84FC54D7F5FE19D4618997E00BA71.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/GameMode/FirstPersonGameMode.uasset'
+[2024.07.23-13.20.12:296][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonGameMode" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonGameMode.uasset" SILENT=true
+[2024.07.23-13.20.12:297][551]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonGameMode7082BF12471EC178D9B5B4B674BFBDEB.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Blueprints/FirstPersonGameMode.uasset'
+[2024.07.23-13.20.12:347][551]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.23-13.20.12:347][551]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2024.07.23-13.20.12:347][551]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/FirstPersonGameMode.Default__FirstPersonGameMode_C
+[2024.07.23-13.20.12:348][551]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2024.07.23-13.20.12:348][551]LogContentValidation: Display: Validating Blueprint /Game/GameMode/FirstPersonGameMode.FirstPersonGameMode
+[2024.07.23-13.20.15:989][706]LogMetaData: Removing '/Game/UI/FirstPersonHUD.FirstPersonHUD_C' ref from Metadata '/Game/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.20.15:989][706]LogMetaData: Removing '/Game/UI/FirstPersonHUD.FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.20.15:989][706]LogMetaData: Removing '/Game/UI/FirstPersonHUD.SKEL_FirstPersonHUD_C' ref from Metadata '/Game/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.20.15:989][706]LogMetaData: Removing '/Game/UI/FirstPersonHUD.SKEL_FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.20.15:989][706]LogMetaData: Removing '/Game/UI/FirstPersonHUD.SKEL_FirstPersonHUD_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/FirstPersonHUD.PackageMetaData'
+[2024.07.23-13.20.16:022][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FirstPersonHUD" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset" SILENT=true
+[2024.07.23-13.20.16:035][706]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonHUDB559E4E94A95C3E0BC7CDCB31A95A150.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset'
+[2024.07.23-13.20.16:096][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.07.23-13.20.16:113][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.07.23-13.20.16:122][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.07.23-13.20.16:138][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/FirstPersonGameMode" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/GameMode/FirstPersonGameMode.uasset" SILENT=true
+[2024.07.23-13.20.16:142][706]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonGameMode86E6C2494A6C6FCAF7357EAD854F6ACC.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/GameMode/FirstPersonGameMode.uasset'
+[2024.07.23-13.20.16:187][706]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.23-13.20.16:187][706]LogContentValidation: Display: Validating Blueprint /Game/UI/FirstPersonHUD.FirstPersonHUD
+[2024.07.23-13.20.16:188][706]LogContentValidation: Display: Validating Blueprint /Game/GameMode/FirstPersonGameMode.FirstPersonGameMode
+[2024.07.23-13.20.18:480][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.07.23-13.20.18:505][797]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonExampleMapC484A2DA4A28DF0A645B73B62650D228.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2024.07.23-13.20.18:510][797]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.038
+[2024.07.23-13.20.18:536][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.07.23-13.20.18:659][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.07.23-13.20.18:674][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.07.23-13.20.18:681][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.07.23-13.20.18:685][797]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2024.07.23-13.20.18:685][797]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2024.07.23-13.20.20:328][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.07.23-13.20.20:442][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.07.23-13.20.20:456][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.07.23-13.20.20:463][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.07.23-13.20.34:663][366]LogMetaData: Removing '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2024.07.23-13.20.34:663][366]LogMetaData: Removing '/Game/Maps/FirstPersonExampleMap.SKEL_FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2024.07.23-13.20.37:505][366]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonExampleMap_BuiltData732DB7B544F4BFA8C9A7209122AE0AF0.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2024.07.23-13.20.37:518][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.07.23-13.20.37:544][366]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonExampleMapAB9CD9A94A610E71EA2D13B1C0099052.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Maps/FirstPersonExampleMap.umap'
+[2024.07.23-13.20.37:547][366]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.040
+[2024.07.23-13.20.37:619][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.07.23-13.20.37:627][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.07.23-13.20.37:641][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.07.23-13.20.37:648][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.07.23-13.20.37:691][366]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.23-13.20.37:691][366]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2024.07.23-13.20.37:691][366]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2024.07.23-13.20.49:092][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
