@@ -1949,3 +1949,953 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.07.24-12.35.59:816][202]AssetCheck: New page: Asset Save: WBP_Console
 [2024.07.24-12.35.59:816][202]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Console/WBP_Console.WBP_Console
 [2024.07.24-12.36.06:792][451]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UI/FirstPersonHUD.FirstPersonHUD
+[2024.07.24-12.39.37:259][746]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.07.24-12.39.37:282][746]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.07.24-12.40.02:736][553]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_ConsoleMessage
+[2024.07.24-12.40.02:911][553]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.WBP_Console_C' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.WBP_Console:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.WBP_Console:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.WBP_Console:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.SKEL_WBP_Console_C' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.SKEL_WBP_Console_C:BndEvt__WBP_Console_EditableTextBox_129_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.SKEL_WBP_Console_C:Tick' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.SKEL_WBP_Console_C:Construct' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:533][979]LogMetaData: Removing '/Game/UI/WBP_Console.SKEL_WBP_Console_C:PreConstruct' ref from Metadata '/Game/UI/Console/WBP_Console.PackageMetaData'
+[2024.07.24-12.40.13:567][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_Console" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_Console.uasset" SILENT=true
+[2024.07.24-12.40.13:637][979]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_Console47B978004F500B528B5AE9B5B7F44CDE.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_Console.uasset'
+[2024.07.24-12.40.13:887][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Console/WBP_Console" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/Console/WBP_Console.uasset" SILENT=true
+[2024.07.24-12.40.13:889][979]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_Console05A84B0F4BA3EF2F715B3FBCA9E9EE63.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/Console/WBP_Console.uasset'
+[2024.07.24-12.40.14:366][979]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.24-12.40.14:366][979]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_Console.WBP_Console
+[2024.07.24-12.40.14:366][979]LogContentValidation: Display: Validating ObjectRedirector /Game/UI/Console/WBP_Console.WBP_Console
+[2024.07.24-12.40.14:366][979]LogContentValidation: Display: Validating ObjectRedirector /Game/UI/Console/WBP_Console.Default__WBP_Console_C
+[2024.07.24-12.40.14:366][979]LogContentValidation: Display: Validating ObjectRedirector /Game/UI/Console/WBP_Console.WBP_Console_C
+[2024.07.24-12.40.17:455][ 90]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/BP_ConsolePlayerControllerAF39CBFF495C34D693A68088CB010707.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/PlayerController/BP_ConsolePlayerController.uasset'
+[2024.07.24-12.40.17:539][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2024.07.24-12.40.17:944][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.07.24-12.40.17:998][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.07.24-12.40.18:043][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.07.24-12.40.18:429][ 90]SourceControl: Error: Updated 1 path from the index
+[2024.07.24-12.40.18:680][ 90]SourceControl: rm 'ConsoleResembling/Content/UI/Console/WBP_Console.uasset'
+[2024.07.24-12.40.18:691][ 90]AssetCheck: New page: Asset Save: BP_ConsolePlayerController
+[2024.07.24-12.40.18:691][ 90]LogContentValidation: Display: Validating Blueprint /Game/PlayerController/BP_ConsolePlayerController.BP_ConsolePlayerController
+[2024.07.24-12.40.26:098][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-12.40.26:102][331]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage468CC47C4733FCD48579878457E5E9CB.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-12.40.26:622][331]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-12.40.26:622][331]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-12.40.27:556][356]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-12.40.42:292][211]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-12.40.42:380][211]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2024.07.24-12.42.29:275][515]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2024.07.24-12.42.29:276][515]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonExampleMap' took 0.066
+[2024.07.24-12.42.29:277][515]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/WBP_ConsoleMessage] ([1] browsable assets)...
+[2024.07.24-12.42.29:277][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WBP_ConsoleMessage]
+[2024.07.24-12.42.29:283][515]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage_Auto39A0C3B60435C2551D5133596604FEA4D.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/Autosaves/Game/UI/WBP_ConsoleMessage_Auto3.uasset'
+[2024.07.24-12.42.29:284][515]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.07.24-12.44.28:398][570]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.24-12.45.32:545][395]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-12.45.32:612][395]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2024.07.24-12.45.33:110][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-12.45.33:117][409]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageDA4B726E4C41EDF8283B0EA314C63B96.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-12.45.33:136][409]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-12.45.33:136][409]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-12.46.17:400][ 56]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-12.46.17:489][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2024.07.24-12.46.17:997][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-12.46.18:003][ 72]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageC81685514FA6D36095E59B8AC02B3980.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-12.46.18:021][ 72]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-12.46.18:021][ 72]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-12.46.55:655][ 14]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-12.46.55:739][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2024.07.24-12.46.56:319][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-12.46.56:326][ 35]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage595F602144BB5C9D89A43F891AD0C754.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-12.46.56:345][ 35]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-12.46.56:345][ 35]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-12.48.29:463][441]BlueprintLog: New page: Compile FirstPersonCharacter
+[2024.07.24-12.48.29:618][441]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2024.07.24-12.48.30:163][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/FirstPersonCharacter" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Character/FirstPersonCharacter.uasset" SILENT=true
+[2024.07.24-12.48.30:221][446]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonCharacter252778A84778067FD18F98BE841CBBC5.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/Character/FirstPersonCharacter.uasset'
+[2024.07.24-12.48.30:242][446]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2024.07.24-12.48.30:242][446]LogContentValidation: Display: Validating Blueprint /Game/Character/FirstPersonCharacter.FirstPersonCharacter
+[2024.07.24-12.48.32:686][544]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-12.48.32:700][544]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.24-12.48.32:701][544]LogPlayLevel: [PlayLevel] Compiling BP_ConsolePlayerController before play...
+[2024.07.24-12.48.32:798][544]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2024.07.24-12.48.32:799][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
+[2024.07.24-12.48.32:799][544]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 16:48:32)
+[2024.07.24-12.48.32:799][544]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-12.48.32:818][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019532s)
+[2024.07.24-12.48.32:820][544]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-12.48.32:820][544]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2024.07.24-12.48.32:820][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021523s)
+[2024.07.24-12.48.32:877][544]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2024.07.24-12.48.32:878][544]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-12.48.32:878][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-12.48.32:878][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-12.48.32:879][544]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-12.48.32:879][544]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-12.48.32:883][544]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-12.48.32:883][544]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-12.48.32:900][544]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-12.48.32:901][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-12.48.32:901][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-12.48.32:901][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-12.48.32:901][544]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-12.48.32:901][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-12.48.32:901][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-12.48.32:928][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-12.48.32:928][544]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-12.48.32:928][544]LogInit: FAudioDevice initialized.
+[2024.07.24-12.48.32:928][544]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-12.48.32:977][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-12.48.32:977][544]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-12.48.32:981][544]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-14.48.32
+[2024.07.24-12.48.32:982][544]LogWorld: Bringing up level for play took: 0.004082
+[2024.07.24-12.48.32:982][544]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2024.07.24-12.48.32:988][544]PIE: Server logged in
+[2024.07.24-12.48.32:991][544]PIE: Play in editor total start time 0,296 seconds.
+[2024.07.24-12.48.33:177][545]LogRenderer: Reallocating scene render targets to support 916x648 Format 10 NumSamples 1 (Frame:1).
+[2024.07.24-12.48.36:626][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-12.48.36:626][623]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-12.48.36:626][623]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-12.48.36:692][623]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-12.48.36:693][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-12.48.36:703][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-12.48.36:715][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-12.48.36:769][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-12.48.36:771][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-12.48.36:809][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2024.07.24-12.48.36:841][624]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.07.24-12.49.59:789][384]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.07.24-12.49.59:794][384]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.07.24-12.50.27:035][574]BlueprintLog: New page: Compile FirstPersonHUD
+[2024.07.24-12.50.27:144][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2024.07.24-12.50.29:104][646]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-12.50.29:113][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-12.50.29:113][646]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 16:50:29)
+[2024.07.24-12.50.29:113][646]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-12.50.29:134][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020352s)
+[2024.07.24-12.50.29:135][646]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-12.50.29:135][646]LogPlayLevel: PIE: World Init took: (0.001614s)
+[2024.07.24-12.50.29:135][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022173s)
+[2024.07.24-12.50.29:189][646]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2024.07.24-12.50.29:190][646]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.07.24-12.50.29:190][646]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-12.50.29:190][646]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-12.50.29:190][646]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-12.50.29:190][646]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-12.50.29:190][646]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-12.50.29:190][646]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-12.50.29:191][646]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-12.50.29:191][646]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-12.50.29:191][646]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-12.50.29:191][646]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-12.50.29:195][646]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-12.50.29:195][646]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-12.50.29:208][646]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-12.50.29:209][646]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-12.50.29:209][646]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-12.50.29:209][646]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-12.50.29:210][646]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-12.50.29:210][646]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-12.50.29:210][646]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-12.50.29:236][646]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-12.50.29:236][646]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-12.50.29:236][646]LogInit: FAudioDevice initialized.
+[2024.07.24-12.50.29:236][646]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-12.50.29:302][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-12.50.29:303][646]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-12.50.29:311][646]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-14.50.29
+[2024.07.24-12.50.29:313][646]LogWorld: Bringing up level for play took: 0.007486
+[2024.07.24-12.50.29:314][646]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2024.07.24-12.50.29:330][646]PIE: Server logged in
+[2024.07.24-12.50.29:332][646]PIE: Play in editor total start time 0,22 seconds.
+[2024.07.24-12.50.29:550][647]LogRenderer: Reallocating scene render targets to support 920x648 Format 10 NumSamples 1 (Frame:1).
+[2024.07.24-12.50.31:593][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-12.50.31:593][688]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-12.50.31:595][688]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-12.50.31:660][688]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-12.50.31:661][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-12.50.31:678][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-12.50.31:687][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-12.50.31:747][688]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-12.50.31:747][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-12.50.31:748][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-12.50.31:783][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2024.07.24-12.50.31:811][689]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.07.24-12.50.37:585][883]BlueprintLog: New page: Compile FirstPersonHUD
+[2024.07.24-12.50.37:699][883]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2024.07.24-12.50.38:424][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FirstPersonHUD" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset" SILENT=true
+[2024.07.24-12.50.38:437][902]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonHUD6BE243F744216229C0E64A91906FFBDB.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset'
+[2024.07.24-12.50.38:455][902]AssetCheck: New page: Asset Save: FirstPersonHUD
+[2024.07.24-12.50.38:455][902]LogContentValidation: Display: Validating Blueprint /Game/UI/FirstPersonHUD.FirstPersonHUD
+[2024.07.24-12.53.02:317][854]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2024.07.24-12.53.02:349][854]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonExampleMap_Auto4A156FFD34AAD203578AE429F2E010DD6.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto4.umap'
+[2024.07.24-12.53.02:351][854]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonExampleMap' took 0.095
+[2024.07.24-12.53.02:351][854]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.095
+[2024.07.24-12.57.00:410][108]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.07.24-12.57.00:442][108]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.07.24-12.57.15:464][541]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_ConsoleMessageEntry
+[2024.07.24-12.57.15:645][541]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.07.24-12.57.18:809][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessageEntry" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset" SILENT=true
+[2024.07.24-12.57.18:813][674]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageEntry8C77AC0A4196D8F4A1BDFA8F1DA2032C.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset'
+[2024.07.24-12.57.19:284][674]AssetCheck: New page: Asset Save: WBP_ConsoleMessageEntry
+[2024.07.24-12.57.19:284][674]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-12.57.19:980][695]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-12.58.34:157][719]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:157][719]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:159][719]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:172][720]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:188][721]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:190][721]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:205][722]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:207][722]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:222][723]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:238][724]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:240][724]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:255][725]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:257][725]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:272][726]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:288][727]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:290][727]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:305][728]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:307][728]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:322][729]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:340][730]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:355][731]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:357][731]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:372][732]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:388][733]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:390][733]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:405][734]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:407][734]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:422][735]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:438][736]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:440][736]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:456][737]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:489][739]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:506][740]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:540][742]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:556][743]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:590][745]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:606][746]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:639][748]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:656][749]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:689][751]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:706][752]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:740][754]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:755][755]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:755][755]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage.
+[2024.07.24-12.58.34:780][755]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_0.
+[2024.07.24-12.58.36:059][831]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_1.
+[2024.07.24-12.58.36:059][831]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_2.
+[2024.07.24-12.58.36:086][832]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_3.
+[2024.07.24-12.58.36:088][832]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_4.
+[2024.07.24-12.58.36:103][833]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_5.
+[2024.07.24-12.58.36:105][833]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_6.
+[2024.07.24-12.58.36:120][834]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_7.
+[2024.07.24-12.58.36:120][834]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_8.
+[2024.07.24-12.58.36:136][835]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_9.
+[2024.07.24-12.58.36:136][835]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_10.
+[2024.07.24-12.58.36:136][835]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_11.
+[2024.07.24-12.58.36:138][835]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_12.
+[2024.07.24-12.58.36:154][836]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_13.
+[2024.07.24-12.58.36:156][836]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_14.
+[2024.07.24-12.58.36:171][837]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_15.
+[2024.07.24-12.58.36:187][838]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_16.
+[2024.07.24-12.58.36:189][838]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_17.
+[2024.07.24-12.58.36:205][839]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_18.
+[2024.07.24-12.58.36:207][839]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_19.
+[2024.07.24-12.58.36:222][840]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_20.
+[2024.07.24-12.58.36:238][841]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_21.
+[2024.07.24-12.58.36:239][841]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_22.
+[2024.07.24-12.58.36:241][841]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_23.
+[2024.07.24-12.58.36:255][842]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_24.
+[2024.07.24-12.58.36:257][842]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_25.
+[2024.07.24-12.58.36:271][843]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_26.
+[2024.07.24-12.58.36:289][844]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_27.
+[2024.07.24-12.58.36:304][845]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_28.
+[2024.07.24-12.58.36:306][845]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_29.
+[2024.07.24-12.58.36:337][847]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_30.
+[2024.07.24-12.58.36:339][847]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_31.
+[2024.07.24-12.58.36:354][848]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_32.
+[2024.07.24-12.58.36:356][848]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_33.
+[2024.07.24-12.58.36:388][850]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_34.
+[2024.07.24-12.58.36:405][851]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_35.
+[2024.07.24-12.58.36:438][853]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_36.
+[2024.07.24-12.58.36:440][853]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_37.
+[2024.07.24-12.58.36:455][854]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_38.
+[2024.07.24-12.58.36:457][854]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_39.
+[2024.07.24-12.58.36:489][856]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_40.
+[2024.07.24-12.58.36:505][857]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_41.
+[2024.07.24-12.58.36:521][858]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_42.
+[2024.07.24-12.58.36:521][858]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_43.
+[2024.07.24-12.58.36:521][858]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_44.
+[2024.07.24-12.58.36:537][859]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_45.
+[2024.07.24-12.58.36:540][859]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_46.
+[2024.07.24-12.58.36:554][860]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_47.
+[2024.07.24-12.58.36:557][860]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_48.
+[2024.07.24-12.58.36:588][862]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_49.
+[2024.07.24-12.58.36:605][863]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_50.
+[2024.07.24-12.58.36:637][865]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_51.
+[2024.07.24-12.58.36:638][865]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_52.
+[2024.07.24-12.58.36:640][865]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_53.
+[2024.07.24-12.58.36:654][866]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_54.
+[2024.07.24-12.58.36:656][866]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_55.
+[2024.07.24-12.58.36:690][868]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_56.
+[2024.07.24-12.58.36:706][869]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_57.
+[2024.07.24-12.58.36:738][871]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_58.
+[2024.07.24-12.58.36:739][871]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_59.
+[2024.07.24-12.58.36:755][872]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_60.
+[2024.07.24-12.58.36:757][872]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_61.
+[2024.07.24-12.58.36:789][874]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_62.
+[2024.07.24-12.58.36:806][875]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_63.
+[2024.07.24-12.58.36:839][877]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_64.
+[2024.07.24-12.58.36:856][878]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_65.
+[2024.07.24-12.58.36:890][880]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_66.
+[2024.07.24-12.58.36:906][881]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_67.
+[2024.07.24-12.58.36:938][883]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_68.
+[2024.07.24-12.58.36:956][884]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_69.
+[2024.07.24-12.58.36:972][885]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_70.
+[2024.07.24-12.58.36:972][885]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_71.
+[2024.07.24-12.58.36:998][885]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_72.
+[2024.07.24-12.58.38:125][951]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_73.
+[2024.07.24-12.58.38:125][951]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_74.
+[2024.07.24-12.58.38:154][952]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_75.
+[2024.07.24-12.58.38:154][952]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_76.
+[2024.07.24-12.58.38:154][952]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_77.
+[2024.07.24-12.58.38:156][952]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_78.
+[2024.07.24-12.58.38:183][953]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_79.
+[2024.07.24-12.58.38:185][953]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_80.
+[2024.07.24-12.58.38:199][954]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_81.
+[2024.07.24-12.58.38:216][955]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_82.
+[2024.07.24-12.58.38:217][955]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_83.
+[2024.07.24-12.58.38:219][955]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_84.
+[2024.07.24-12.58.38:232][956]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_85.
+[2024.07.24-12.58.38:234][956]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_86.
+[2024.07.24-12.58.38:249][957]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_87.
+[2024.07.24-12.58.38:265][958]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_88.
+[2024.07.24-12.58.38:267][958]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_89.
+[2024.07.24-12.58.38:282][959]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_90.
+[2024.07.24-12.58.38:284][959]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_91.
+[2024.07.24-12.58.38:315][961]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_92.
+[2024.07.24-12.58.38:317][961]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_93.
+[2024.07.24-12.58.38:332][962]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_94.
+[2024.07.24-12.58.38:334][962]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_95.
+[2024.07.24-12.58.38:348][963]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_96.
+[2024.07.24-12.58.38:366][964]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_97.
+[2024.07.24-12.58.38:383][965]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_98.
+[2024.07.24-12.58.38:416][967]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_99.
+[2024.07.24-12.58.38:416][967]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_100.
+[2024.07.24-12.58.38:416][967]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_101.
+[2024.07.24-12.58.38:418][967]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_102.
+[2024.07.24-12.58.38:433][968]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_103.
+[2024.07.24-12.58.38:435][968]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_104.
+[2024.07.24-12.58.38:449][969]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_105.
+[2024.07.24-12.58.38:465][970]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_106.
+[2024.07.24-12.58.38:467][970]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_107.
+[2024.07.24-12.58.38:483][971]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_108.
+[2024.07.24-12.58.38:517][973]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_109.
+[2024.07.24-12.58.38:534][974]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_110.
+[2024.07.24-12.58.38:566][976]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_111.
+[2024.07.24-12.58.38:568][976]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_112.
+[2024.07.24-12.58.38:584][977]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_113.
+[2024.07.24-12.58.38:617][979]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_114.
+[2024.07.24-12.58.38:634][980]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_115.
+[2024.07.24-12.58.38:666][982]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_116.
+[2024.07.24-12.58.38:682][983]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_117.
+[2024.07.24-12.58.38:682][983]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_118.
+[2024.07.24-12.58.38:709][983]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_119.
+[2024.07.24-12.58.39:657][ 38]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_120.
+[2024.07.24-12.58.39:657][ 38]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_121.
+[2024.07.24-12.58.39:686][ 39]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_122.
+[2024.07.24-12.58.39:688][ 39]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_123.
+[2024.07.24-12.58.39:703][ 40]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_124.
+[2024.07.24-12.58.39:705][ 40]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_125.
+[2024.07.24-12.58.39:720][ 41]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_126.
+[2024.07.24-12.58.39:736][ 42]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_127.
+[2024.07.24-12.58.39:738][ 42]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_128.
+[2024.07.24-12.58.39:753][ 43]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_129.
+[2024.07.24-12.58.39:755][ 43]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_130.
+[2024.07.24-12.58.39:769][ 44]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_131.
+[2024.07.24-12.58.39:771][ 44]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_132.
+[2024.07.24-12.58.39:786][ 45]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_133.
+[2024.07.24-12.58.39:788][ 45]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_134.
+[2024.07.24-12.58.39:803][ 46]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_135.
+[2024.07.24-12.58.39:803][ 46]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_136.
+[2024.07.24-12.58.39:803][ 46]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_137.
+[2024.07.24-12.58.39:805][ 46]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_138.
+[2024.07.24-12.58.39:819][ 47]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_139.
+[2024.07.24-12.58.39:836][ 48]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_140.
+[2024.07.24-12.58.39:838][ 48]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_141.
+[2024.07.24-12.58.39:853][ 49]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_142.
+[2024.07.24-12.58.39:855][ 49]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_143.
+[2024.07.24-12.58.39:870][ 50]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_144.
+[2024.07.24-12.58.39:886][ 51]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_145.
+[2024.07.24-12.58.39:888][ 51]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_146.
+[2024.07.24-12.58.39:903][ 52]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_147.
+[2024.07.24-12.58.39:905][ 52]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_148.
+[2024.07.24-12.58.39:920][ 53]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_149.
+[2024.07.24-12.58.39:936][ 54]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_150.
+[2024.07.24-12.58.39:938][ 54]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_151.
+[2024.07.24-12.58.39:953][ 55]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_152.
+[2024.07.24-12.58.39:955][ 55]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_153.
+[2024.07.24-12.58.39:970][ 56]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_154.
+[2024.07.24-12.58.39:986][ 57]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_155.
+[2024.07.24-12.58.39:988][ 57]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_156.
+[2024.07.24-12.58.40:004][ 58]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_157.
+[2024.07.24-12.58.40:020][ 59]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_158.
+[2024.07.24-12.58.40:021][ 59]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_159.
+[2024.07.24-12.58.40:036][ 60]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_160.
+[2024.07.24-12.58.40:038][ 60]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_161.
+[2024.07.24-12.58.40:054][ 61]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_162.
+[2024.07.24-12.58.40:086][ 63]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_163.
+[2024.07.24-12.58.40:088][ 63]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_164.
+[2024.07.24-12.58.40:104][ 64]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_165.
+[2024.07.24-12.58.40:138][ 66]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_166.
+[2024.07.24-12.58.40:155][ 67]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_167.
+[2024.07.24-12.58.40:188][ 69]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_168.
+[2024.07.24-12.58.40:204][ 70]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_169.
+[2024.07.24-12.58.40:237][ 72]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_170.
+[2024.07.24-12.58.40:254][ 73]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_171.
+[2024.07.24-12.58.40:287][ 75]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_172.
+[2024.07.24-12.58.40:304][ 76]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_173.
+[2024.07.24-12.58.40:304][ 76]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_174.
+[2024.07.24-12.58.40:332][ 76]LogUMG: Error: Widget Class WBP_ConsoleMessage_C - Running Initialize On Archetype, WBP_ConsoleMessage_175.
+[2024.07.24-12.59.23:888][640]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.24-13.01.17:708][434]BlueprintLog: New page: Compile WBP_ConsoleMessageEntry
+[2024.07.24-13.01.17:808][434]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2024.07.24-13.01.18:358][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessageEntry" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset" SILENT=true
+[2024.07.24-13.01.18:364][454]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageEntryD551F83246395BB7618D7DB0BB70D4AF.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset'
+[2024.07.24-13.01.18:385][454]AssetCheck: New page: Asset Save: WBP_ConsoleMessageEntry
+[2024.07.24-13.01.18:385][454]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-13.01.50:263][226]BlueprintLog: New page: Compile FirstPersonHUD
+[2024.07.24-13.01.50:358][226]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2024.07.24-13.04.38:067][921]BlueprintLog: New page: Compile FirstPersonHUD
+[2024.07.24-13.04.38:169][921]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2024.07.24-13.04.38:684][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FirstPersonHUD" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset" SILENT=true
+[2024.07.24-13.04.38:698][940]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonHUD285D0A904D5A1AFD8A0147A00D6EEE08.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset'
+[2024.07.24-13.04.38:718][940]AssetCheck: New page: Asset Save: FirstPersonHUD
+[2024.07.24-13.04.38:718][940]LogContentValidation: Display: Validating Blueprint /Game/UI/FirstPersonHUD.FirstPersonHUD
+[2024.07.24-13.05.15:072][ 85]BlueprintLog: New page: Compile BP_ConsolePlayerController
+[2024.07.24-13.05.15:172][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2024.07.24-13.05.15:697][102]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/BP_ConsolePlayerController0EDB7CF944321C0413D05680440490C5.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/PlayerController/BP_ConsolePlayerController.uasset'
+[2024.07.24-13.05.15:719][102]AssetCheck: New page: Asset Save: BP_ConsolePlayerController
+[2024.07.24-13.05.15:719][102]LogContentValidation: Display: Validating Blueprint /Game/PlayerController/BP_ConsolePlayerController.BP_ConsolePlayerController
+[2024.07.24-13.05.20:885][405]BlueprintLog: New page: Compile FirstPersonHUD
+[2024.07.24-13.05.20:982][405]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2024.07.24-13.05.21:456][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FirstPersonHUD" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset" SILENT=true
+[2024.07.24-13.05.21:469][422]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/FirstPersonHUD6D52EA47416717F172CF7B837A91A7B8.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/FirstPersonHUD.uasset'
+[2024.07.24-13.05.21:488][422]AssetCheck: New page: Asset Save: FirstPersonHUD
+[2024.07.24-13.05.21:488][422]LogContentValidation: Display: Validating Blueprint /Game/UI/FirstPersonHUD.FirstPersonHUD
+[2024.07.24-13.06.52:964][736]BlueprintLog: New page: Compile WBP_ConsoleMessageEntry
+[2024.07.24-13.06.53:038][736]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2024.07.24-13.06.53:665][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessageEntry" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset" SILENT=true
+[2024.07.24-13.06.53:675][755]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageEntryDBBD486E438721342CB5619DB5D5B506.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset'
+[2024.07.24-13.06.53:702][755]AssetCheck: New page: Asset Save: WBP_ConsoleMessageEntry
+[2024.07.24-13.06.53:702][755]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-13.07.10:239][714]BlueprintLog: New page: Compile WBP_ConsoleMessageEntry
+[2024.07.24-13.07.10:350][714]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2024.07.24-13.07.10:893][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessageEntry" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset" SILENT=true
+[2024.07.24-13.07.10:899][730]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageEntryEA783DBF4F6BC1F0C9890F9A8AE8E719.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset'
+[2024.07.24-13.07.10:921][730]AssetCheck: New page: Asset Save: WBP_ConsoleMessageEntry
+[2024.07.24-13.07.10:921][730]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-13.07.21:558][351]BlueprintLog: New page: Compile WBP_ConsoleMessageEntry
+[2024.07.24-13.07.21:696][351]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2024.07.24-13.07.22:222][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessageEntry" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset" SILENT=true
+[2024.07.24-13.07.22:232][367]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageEntry0708016B45261D0FF2982A8BAB32442C.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset'
+[2024.07.24-13.07.22:253][367]AssetCheck: New page: Asset Save: WBP_ConsoleMessageEntry
+[2024.07.24-13.07.22:253][367]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-13.07.41:250][482]BlueprintLog: New page: Compile WBP_ConsoleMessageEntry
+[2024.07.24-13.07.41:352][482]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2024.07.24-13.07.41:849][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessageEntry" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset" SILENT=true
+[2024.07.24-13.07.41:854][502]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageEntry8A04AE294B9B59E7847863BF19BA6960.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessageEntry.uasset'
+[2024.07.24-13.07.41:873][502]AssetCheck: New page: Asset Save: WBP_ConsoleMessageEntry
+[2024.07.24-13.07.41:874][502]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessageEntry.WBP_ConsoleMessageEntry
+[2024.07.24-13.08.15:139][442]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.07.24-13.09.08:442][550]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.09.08:572][550]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2024.07.24-13.09.08:991][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.09.08:997][558]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage00D918694CDE1FD2177A5DB3C3F8A815.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.09.09:021][558]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.09.09:021][558]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.09.35:884][139]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.09.36:004][139]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2024.07.24-13.09.36:834][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.09.36:840][173]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage2C437D91412D98AADDA24A89ED015129.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.09.36:859][173]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.09.36:859][173]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.10.44:446][770]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.10.44:573][770]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2024.07.24-13.10.45:065][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.10.45:070][787]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage09B6FACD47150FEF41ED18BE8D9BCA8A.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.10.45:091][787]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.10.45:091][787]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.11.12:489][380]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.11.12:635][380]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2024.07.24-13.11.13:347][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.11.13:355][399]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageA66B64C544E2C4300275B782285E2D2A.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.11.13:380][399]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.11.13:380][399]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.11.43:241][155]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2024.07.24-13.11.43:242][155]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonExampleMap' took 0.066
+[2024.07.24-13.11.43:243][155]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerController/BP_ConsolePlayerController] ([1] browsable assets)...
+[2024.07.24-13.11.43:243][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerController/BP_ConsolePlayerController]
+[2024.07.24-13.11.43:268][155]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/BP_ConsolePlayerController_Auto578CAA4E14E0D777DDCA0C3AA3B86A034.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/Autosaves/Game/PlayerController/BP_ConsolePlayerController_Auto5.uasset'
+[2024.07.24-13.11.43:269][155]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/WBP_ConsoleMessage] ([1] browsable assets)...
+[2024.07.24-13.11.43:269][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WBP_ConsoleMessage]
+[2024.07.24-13.11.43:276][155]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage_Auto50BC38E9448639BA5B713C5BE3A069F7D.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/Autosaves/Game/UI/WBP_ConsoleMessage_Auto5.uasset'
+[2024.07.24-13.11.43:277][155]LogFileHelpers: Auto-saving content packages took 0.035
+[2024.07.24-13.12.35:180][240]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.12.35:307][240]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2024.07.24-13.12.36:052][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.12.36:060][267]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageC46136FE4AE2B423ABE9F28A7CB5FDDF.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.12.36:085][267]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.12.36:085][267]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.12.44:780][771]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.12.44:887][771]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2024.07.24-13.12.57:707][516]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.12.57:808][516]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2024.07.24-13.12.58:346][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.12.58:357][531]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageF31FF0AC4E7B85DA2EF232B0048667C6.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.12.58:381][531]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.12.58:381][531]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.13.51:394][649]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.13.51:501][649]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2024.07.24-13.13.52:079][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.13.52:085][672]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage2EB940FE4C57598DAFA680B7EB15E298.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.13.52:106][672]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.13.52:106][672]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.15.51:044][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.15.51:051][576]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage500EB51D49E6F067FECF52A0186C0BAD.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.15.51:076][576]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.15.51:076][576]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.16.01:771][201]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.16.01:801][201]LogClass: Warning: Type mismatch in MessageText of WBP_ConsoleMessage_C - Previous (ObjectProperty) Current(StrProperty) for package:  FObjectReader
+[2024.07.24-13.16.01:810][201]LogClass: Warning: Type mismatch in MessageText of WBP_ConsoleMessage_C - Previous (ObjectProperty) Current(StrProperty) for package:  FObjectReader
+[2024.07.24-13.16.01:914][201]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2024.07.24-13.16.02:376][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.16.02:382][216]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage37CFA8AB4CDA231350E8EF806F3794ED.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.16.02:402][216]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.16.02:402][216]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.17.41:761][982]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.17.41:888][982]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2024.07.24-13.17.42:297][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.17.42:306][994]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage918E28774457B48EB6735CBCCD9EAEBF.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.17.42:327][994]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.17.42:327][994]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.17.50:776][491]BlueprintLog: New page: Compile BP_ConsolePlayerController
+[2024.07.24-13.17.50:884][491]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2024.07.24-13.17.51:405][509]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/BP_ConsolePlayerController4B629AE14B2370C3796695A0578FE8E8.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/PlayerController/BP_ConsolePlayerController.uasset'
+[2024.07.24-13.17.51:425][509]AssetCheck: New page: Asset Save: BP_ConsolePlayerController
+[2024.07.24-13.17.51:425][509]LogContentValidation: Display: Validating Blueprint /Game/PlayerController/BP_ConsolePlayerController.BP_ConsolePlayerController
+[2024.07.24-13.17.54:722][659]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-13.17.54:734][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-13.17.54:734][659]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 17:17:54)
+[2024.07.24-13.17.54:734][659]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.17.54:754][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020126s)
+[2024.07.24-13.17.54:755][659]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-13.17.54:756][659]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2024.07.24-13.17.54:756][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021867s)
+[2024.07.24-13.17.54:811][659]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2024.07.24-13.17.54:812][659]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-13.17.54:812][659]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-13.17.54:812][659]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-13.17.54:813][659]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-13.17.54:813][659]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-13.17.54:819][659]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-13.17.54:819][659]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-13.17.54:834][659]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-13.17.54:834][659]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-13.17.54:834][659]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-13.17.54:835][659]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-13.17.54:835][659]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-13.17.54:835][659]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-13.17.54:835][659]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-13.17.54:860][659]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-13.17.54:860][659]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-13.17.54:861][659]LogInit: FAudioDevice initialized.
+[2024.07.24-13.17.54:861][659]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-13.17.54:892][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.17.54:892][659]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-13.17.54:897][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-15.17.54
+[2024.07.24-13.17.54:898][659]LogWorld: Bringing up level for play took: 0.004126
+[2024.07.24-13.17.54:898][659]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2024.07.24-13.17.54:902][659]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.24-13.17.54:902][659]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.24-13.17.54:902][659]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.24-13.17.54:906][659]PIE: Server logged in
+[2024.07.24-13.17.54:908][659]PIE: Play in editor total start time 0,178 seconds.
+[2024.07.24-13.17.55:129][660]LogRenderer: Reallocating scene render targets to support 924x648 Format 10 NumSamples 1 (Frame:1).
+[2024.07.24-13.17.57:721][720]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.07.24-13.17.57:721][720]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.07.24-13.18.17:117][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.18.17:117][153]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.18.17:119][153]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-13.18.17:190][153]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.18.17:191][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.18.17:211][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-13.18.17:221][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.18.17:283][153]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-13.18.17:283][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.18.17:284][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.18.17:321][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2024.07.24-13.18.17:360][154]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.07.24-13.18.49:733][957]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.24-13.18.56:828][374]LogSlate: Window 'Color Picker' being destroyed
+[2024.07.24-13.18.57:939][440]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.18.58:061][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2024.07.24-13.18.58:858][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.18.58:868][469]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageE7028E7448C73012EC936EB89EDCEABD.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.18.58:890][469]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.18.58:890][469]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.19.01:135][563]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-13.19.01:146][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-13.19.01:146][563]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 17:19:01)
+[2024.07.24-13.19.01:146][563]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.19.01:164][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017602s)
+[2024.07.24-13.19.01:165][563]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-13.19.01:165][563]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2024.07.24-13.19.01:165][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019129s)
+[2024.07.24-13.19.01:226][563]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2024.07.24-13.19.01:227][563]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-13.19.01:227][563]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-13.19.01:227][563]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-13.19.01:228][563]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-13.19.01:228][563]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-13.19.01:231][563]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-13.19.01:231][563]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-13.19.01:244][563]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-13.19.01:245][563]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-13.19.01:245][563]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-13.19.01:245][563]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-13.19.01:245][563]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-13.19.01:246][563]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-13.19.01:246][563]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-13.19.01:275][563]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-13.19.01:275][563]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-13.19.01:275][563]LogInit: FAudioDevice initialized.
+[2024.07.24-13.19.01:275][563]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-13.19.01:322][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.19.01:323][563]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-13.19.01:327][563]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-15.19.01
+[2024.07.24-13.19.01:328][563]LogWorld: Bringing up level for play took: 0.004399
+[2024.07.24-13.19.01:328][563]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2024.07.24-13.19.01:332][563]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.24-13.19.01:332][563]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.24-13.19.01:332][563]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.24-13.19.01:334][563]PIE: Server logged in
+[2024.07.24-13.19.01:337][563]PIE: Play in editor total start time 0,193 seconds.
+[2024.07.24-13.19.01:575][564]LogRenderer: Reallocating scene render targets to support 928x648 Format 10 NumSamples 1 (Frame:1).
+[2024.07.24-13.19.08:523][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.19.08:524][724]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.19.08:526][724]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-13.19.08:596][724]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.19.08:598][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.19.08:617][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-13.19.08:626][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.19.08:691][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-13.19.08:691][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.19.08:692][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.19.08:729][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2024.07.24-13.19.08:761][725]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.07.24-13.19.23:085][525]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2024.07.24-13.19.24:550][525]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.464 s
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: === Handled ensure: ===
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: 
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid [File:D:/Build/++UE4/Sync/Engine/Source/Editor/GraphEditor/Private/SGraphPin.cpp] [Line: 821]
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: The Graph Pin Object has been invalidate. Someone is keeping a hard ref on the SGraphPin. See InvalidateGraphData for more info
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: Stack: 
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1644d149 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa162f2141 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa162f0db8 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa162fe88c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa16376b8c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa16374089 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:550][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c63fc19 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c63faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c641ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c641ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c63faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:551][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c641ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57857 UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c98252a UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1ca57aec UE4Editor-SlateCore.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c40977e UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c43b93e UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c40a0d7 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c461e57 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa1c461659 UE4Editor-Slate.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ff756d2ae49 UE4Editor.exe!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ff756d4117c UE4Editor.exe!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ff756d4125a UE4Editor.exe!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ff756d552bd UE4Editor.exe!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ff756d57fea UE4Editor.exe!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa93b07374 KERNEL32.DLL!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: [Callstack] 0x00007ffa93d1cc91 ntdll.dll!UnknownFunction []
+[2024.07.24-13.19.24:552][525]LogOutputDevice: Error: 
+[2024.07.24-13.19.24:566][525]LogStats:                SubmitErrorReport -  0.000 s
+[2024.07.24-13.19.27:059][525]LogStats:                    SendNewReport -  2.493 s
+[2024.07.24-13.19.27:059][525]LogStats:             FDebug::EnsureFailed -  3.974 s
+[2024.07.24-13.20.01:573][529]BlueprintLog: New page: Compile BP_ConsolePlayerController
+[2024.07.24-13.20.01:672][529]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2024.07.24-13.20.02:499][560]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/BP_ConsolePlayerController8D93BEA24D96034E745F0ABDEE57DB1D.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/PlayerController/BP_ConsolePlayerController.uasset'
+[2024.07.24-13.20.02:518][560]AssetCheck: New page: Asset Save: BP_ConsolePlayerController
+[2024.07.24-13.20.02:518][560]LogContentValidation: Display: Validating Blueprint /Game/PlayerController/BP_ConsolePlayerController.BP_ConsolePlayerController
+[2024.07.24-13.20.04:570][645]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-13.20.04:579][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-13.20.04:579][645]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 17:20:04)
+[2024.07.24-13.20.04:579][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.20.04:601][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021426s)
+[2024.07.24-13.20.04:602][645]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-13.20.04:603][645]LogPlayLevel: PIE: World Init took: (0.001930s)
+[2024.07.24-13.20.04:603][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023560s)
+[2024.07.24-13.20.04:662][645]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2024.07.24-13.20.04:664][645]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-13.20.04:664][645]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-13.20.04:664][645]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-13.20.04:664][645]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-13.20.04:667][645]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-13.20.04:667][645]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-13.20.04:682][645]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-13.20.04:682][645]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-13.20.04:682][645]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-13.20.04:682][645]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-13.20.04:683][645]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-13.20.04:683][645]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-13.20.04:683][645]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-13.20.04:715][645]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-13.20.04:715][645]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-13.20.04:715][645]LogInit: FAudioDevice initialized.
+[2024.07.24-13.20.04:715][645]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-13.20.04:773][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.20.04:773][645]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-13.20.04:777][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-15.20.04
+[2024.07.24-13.20.04:778][645]LogWorld: Bringing up level for play took: 0.003526
+[2024.07.24-13.20.04:778][645]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2024.07.24-13.20.04:782][645]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.24-13.20.04:786][645]PIE: Server logged in
+[2024.07.24-13.20.04:789][645]PIE: Play in editor total start time 0,212 seconds.
+[2024.07.24-13.20.05:010][646]LogRenderer: Reallocating scene render targets to support 932x648 Format 10 NumSamples 1 (Frame:1).
+[2024.07.24-13.20.08:431][724]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.24-13.20.08:431][724]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.24-13.20.08:431][724]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.07.24-13.20.15:536][886]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.07.24-13.20.15:537][886]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.07.24-13.20.24:819][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.20.24:819][ 78]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.20.24:823][ 78]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-13.20.24:909][ 78]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.20.24:910][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.20.24:929][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-13.20.24:941][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.20.25:026][ 78]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-13.20.25:027][ 78]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.20.25:031][ 78]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.20.25:076][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2024.07.24-13.20.25:122][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.07.24-13.22.20:400][848]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.22.20:531][848]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2024.07.24-13.22.20:984][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.22.20:994][862]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessage966DE81E4142D3E7D88EF596661C07A0.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.22.21:015][862]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.22.21:015][862]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.22.23:756][988]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-13.22.23:768][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-13.22.23:768][988]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 17:22:23)
+[2024.07.24-13.22.23:768][988]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.22.23:796][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027706s)
+[2024.07.24-13.22.23:797][988]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-13.22.23:797][988]LogPlayLevel: PIE: World Init took: (0.001470s)
+[2024.07.24-13.22.23:797][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029373s)
+[2024.07.24-13.22.23:858][988]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2024.07.24-13.22.23:859][988]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-13.22.23:859][988]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-13.22.23:859][988]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-13.22.23:860][988]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-13.22.23:860][988]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-13.22.23:866][988]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-13.22.23:866][988]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-13.22.23:880][988]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-13.22.23:880][988]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-13.22.23:880][988]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-13.22.23:880][988]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-13.22.23:881][988]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-13.22.23:881][988]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-13.22.23:881][988]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-13.22.23:905][988]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-13.22.23:905][988]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-13.22.23:906][988]LogInit: FAudioDevice initialized.
+[2024.07.24-13.22.23:906][988]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-13.22.23:966][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.22.23:967][988]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-13.22.23:972][988]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-15.22.23
+[2024.07.24-13.22.23:972][988]LogWorld: Bringing up level for play took: 0.004998
+[2024.07.24-13.22.23:973][988]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2024.07.24-13.22.23:978][988]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.24-13.22.23:981][988]PIE: Server logged in
+[2024.07.24-13.22.23:985][988]PIE: Play in editor total start time 0,218 seconds.
+[2024.07.24-13.22.28:436][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.22.28:436][ 87]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.22.28:438][ 87]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-13.22.28:494][ 87]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.22.28:494][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.22.28:503][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-13.22.28:514][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.22.28:582][ 87]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-13.22.28:582][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.22.28:583][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.22.28:618][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2024.07.24-13.22.28:656][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.07.24-13.22.54:204][535]BlueprintLog: New page: Compile WBP_ConsoleMessage
+[2024.07.24-13.22.54:327][535]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2024.07.24-13.22.54:859][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ConsoleMessage" FILE="../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset" SILENT=true
+[2024.07.24-13.22.54:869][555]LogSavePackage: Moving '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Saved/WBP_ConsoleMessageE31C76C445D11EBD83101B904EB72F39.tmp' to '../../../../../UE4.26.2_Projects/console-resembling/ConsoleResembling/Content/UI/WBP_ConsoleMessage.uasset'
+[2024.07.24-13.22.54:888][555]AssetCheck: New page: Asset Save: WBP_ConsoleMessage
+[2024.07.24-13.22.54:889][555]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/WBP_ConsoleMessage.WBP_ConsoleMessage
+[2024.07.24-13.22.56:486][620]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.07.24-13.22.56:496][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-13.22.56:496][620]PIE: New page: PIE session: FirstPersonExampleMap (24 lip 2024, 17:22:56)
+[2024.07.24-13.22.56:496][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.22.56:514][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017830s)
+[2024.07.24-13.22.56:515][620]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.07.24-13.22.56:516][620]LogPlayLevel: PIE: World Init took: (0.002115s)
+[2024.07.24-13.22.56:516][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020241s)
+[2024.07.24-13.22.56:575][620]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2024.07.24-13.22.56:576][620]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-13.22.56:576][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-13.22.56:577][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-13.22.56:577][620]LogAudio: Display: Using built-in audio occlusion.
+[2024.07.24-13.22.56:577][620]LogAudioMixer: Display: Initializing audio mixer.
+[2024.07.24-13.22.56:580][620]LogAudioMixer: Display: 0: FrontLeft
+[2024.07.24-13.22.56:580][620]LogAudioMixer: Display: 1: FrontRight
+[2024.07.24-13.22.56:593][620]LogAudioMixer: Display: Using Audio Device Głośniki (2 — High Definition Audio Device)
+[2024.07.24-13.22.56:593][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-13.22.56:593][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-13.22.56:593][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-13.22.56:594][620]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.07.24-13.22.56:594][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.07.24-13.22.56:594][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.07.24-13.22.56:620][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.07.24-13.22.56:620][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.07.24-13.22.56:620][620]LogInit: FAudioDevice initialized.
+[2024.07.24-13.22.56:620][620]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonExampleMap'.
+[2024.07.24-13.22.56:656][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.22.56:656][620]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2024.07.24-13.22.56:660][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2024.07.24-15.22.56
+[2024.07.24-13.22.56:661][620]LogWorld: Bringing up level for play took: 0.003784
+[2024.07.24-13.22.56:661][620]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2024.07.24-13.22.56:665][620]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.07.24-13.22.56:667][620]PIE: Server logged in
+[2024.07.24-13.22.56:670][620]PIE: Play in editor total start time 0,175 seconds.
+[2024.07.24-13.22.56:881][621]LogRenderer: Reallocating scene render targets to support 936x648 Format 10 NumSamples 1 (Frame:1).
+[2024.07.24-13.23.00:569][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-13.23.00:569][704]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.07.24-13.23.00:570][704]LogSlate: Window 'ConsoleResembling Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2024.07.24-13.23.00:657][704]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-13.23.00:658][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.23.00:668][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-13.23.00:682][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-13.23.00:772][704]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-13.23.00:773][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.23.00:774][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.07.24-13.23.00:824][704]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2024.07.24-13.23.00:866][705]LogPlayLevel: Display: Destroying online subsystem :Context_34
