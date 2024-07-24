@@ -1,0 +1,2 @@
+C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\Definitions.ConsoleResembling.h
+C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Source\ConsoleResembling\ConsoleResembling.h

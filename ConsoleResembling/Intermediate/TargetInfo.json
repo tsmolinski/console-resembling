@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ConsoleResembling",
+			"Path": "C:\\UE4.26.2_Projects\\console-resembling\\ConsoleResembling\\Source\\ConsoleResembling.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ConsoleResemblingEditor",
+			"Path": "C:\\UE4.26.2_Projects\\console-resembling\\ConsoleResembling\\Source\\ConsoleResemblingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

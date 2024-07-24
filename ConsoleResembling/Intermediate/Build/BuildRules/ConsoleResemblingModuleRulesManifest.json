@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UE4.26.2_Projects\\console-resembling\\ConsoleResembling\\Source\\ConsoleResembling\\ConsoleResembling.Build.cs",
+		"C:\\UE4.26.2_Projects\\console-resembling\\ConsoleResembling\\Source\\ConsoleResembling.Target.cs",
+		"C:\\UE4.26.2_Projects\\console-resembling\\ConsoleResembling\\Source\\ConsoleResemblingEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
