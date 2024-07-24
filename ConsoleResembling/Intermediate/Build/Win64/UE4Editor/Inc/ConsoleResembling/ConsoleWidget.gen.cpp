@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleWidget() {}
 	CONSOLERESEMBLING_API UClass* Z_Construct_UClass_UConsoleWidget();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_ConsoleResembling();
+	UMG_API UClass* Z_Construct_UClass_UEditableTextBox_NoRegister();
 // End Cross Module References
 	void UConsoleWidget::StaticRegisterNativesUConsoleWidget()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeConsoleWidget() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EditableTextBlock_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EditableTextBlock;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -40,11 +46,23 @@ void EmptyLinkFunctionForGeneratedCodeConsoleWidget() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UConsoleWidget_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "Widgets/ConsoleWidget.h" },
 		{ "ModuleRelativePath", "Widgets/ConsoleWidget.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UConsoleWidget_Statics::NewProp_EditableTextBlock_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Comment", "//UEditableTextBlock* EditableTextBlock;\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Widgets/ConsoleWidget.h" },
+		{ "ToolTip", "UEditableTextBlock* EditableTextBlock;" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UConsoleWidget_Statics::NewProp_EditableTextBlock = { "EditableTextBlock", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UConsoleWidget, EditableTextBlock), Z_Construct_UClass_UEditableTextBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UConsoleWidget_Statics::NewProp_EditableTextBlock_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UConsoleWidget_Statics::NewProp_EditableTextBlock_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UConsoleWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UConsoleWidget_Statics::NewProp_EditableTextBlock,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UConsoleWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UConsoleWidget>::IsAbstract,
 	};
@@ -54,11 +72,11 @@ void EmptyLinkFunctionForGeneratedCodeConsoleWidget() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UConsoleWidget_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UConsoleWidget_Statics::PropPointers),
 		0,
 		0x00B010A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UConsoleWidget_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UConsoleWidget_Statics::Class_MetaDataParams))
@@ -72,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UConsoleWidget, 1097215612);
+	IMPLEMENT_CLASS(UConsoleWidget, 2843264497);
 	template<> CONSOLERESEMBLING_API UClass* StaticClass<UConsoleWidget>()
 	{
 		return UConsoleWidget::StaticClass();

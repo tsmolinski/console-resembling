@@ -6,12 +6,23 @@
 #include "GameFramework/HUD.h"
 #include "ConsoleHUD.generated.h"
 
-/**
- * 
- */
+class UConsoleWidget;
+
 UCLASS()
 class CONSOLERESEMBLING_API AConsoleHUD : public AHUD
 {
 	GENERATED_BODY()
 	
+public:
+	void ShowConsoleWidget();
+
+	void HideConsoleWidget();
+
+protected:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UConsoleWidget> ConsoleWidgetClass;
+
+	UPROPERTY()
+	UConsoleWidget* ConsoleWidget;
+
 };
