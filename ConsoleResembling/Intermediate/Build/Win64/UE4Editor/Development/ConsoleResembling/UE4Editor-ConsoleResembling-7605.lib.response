@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ConsoleResembling-7605.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\ConsoleResemblingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleWidget.cpp.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleResembling.cpp.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleResembling.init.gen.cpp.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleWidget.gen.cpp.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\Default.rc2.res"
+/OUT:"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling-7605.lib"
+/INCLUDE:IMPLEMENT_MODULE_ConsoleResembling

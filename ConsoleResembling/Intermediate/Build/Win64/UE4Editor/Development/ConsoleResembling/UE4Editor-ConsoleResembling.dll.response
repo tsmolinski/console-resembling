@@ -35,10 +35,13 @@
 /FUNCTIONPADMIN
 "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\ConsoleResemblingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleHUD.cpp.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleWidget.cpp.obj"
 "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleResembling.cpp.obj"
 "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleHUD.gen.cpp.obj"
 "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleResembling.init.gen.cpp.obj"
+"C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\ConsoleWidget.gen.cpp.obj"
 "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\Default.rc2.res"
+"C:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\UMG\UE4Editor-UMG.lib"
 "C:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "C:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ConsoleResembling/ConsoleHUD.h"
+#include "ConsoleResembling/HUD/ConsoleHUD.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,8 +42,8 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Rendering Actor Input Replication" },
-		{ "IncludePath", "ConsoleHUD.h" },
-		{ "ModuleRelativePath", "ConsoleHUD.h" },
+		{ "IncludePath", "HUD/ConsoleHUD.h" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AConsoleHUD, 514073957);
+	IMPLEMENT_CLASS(AConsoleHUD, 249712781);
 	template<> CONSOLERESEMBLING_API UClass* StaticClass<AConsoleHUD>()
 	{
 		return AConsoleHUD::StaticClass();

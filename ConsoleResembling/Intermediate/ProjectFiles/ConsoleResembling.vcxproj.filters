@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ConsoleResembling.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CF6DC192-C434-4144-80E1-DE41AEC633C3}</UniqueIdentifier>
+      <UniqueIdentifier>{B5D5366A-2DD2-49F7-A2B6-CDA5B4CAEBA1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ConsoleResembling.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FF85F8CB-346C-4945-8548-EFBF16151DC9}</UniqueIdentifier>
+      <UniqueIdentifier>{91641041-63F9-4670-8A1B-4574AF19001E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ConsoleResembling">
-      <UniqueIdentifier>{8A355C6D-7D8F-4A65-9A4B-4078FF649D4A}</UniqueIdentifier>
+      <UniqueIdentifier>{459AA5D8-7F3A-46A6-B3CC-661B1D1764E7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ConsoleResembling\ConsoleResembling.Build.cs">
       <Filter>Source\ConsoleResembling</Filter>
@@ -41,15 +41,23 @@
     <ClInclude Include="..\..\Source\ConsoleResembling\ConsoleResembling.h">
       <Filter>Source\ConsoleResembling</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ConsoleHUD.cpp">
-      <Filter>Source\ConsoleResembling</Filter>
+    <Filter Include="Source\ConsoleResembling\HUD">
+      <UniqueIdentifier>{D2B93AE9-D7FE-4EF2-8D7C-5551B36C86A1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ConsoleResembling\HUD\ConsoleHUD.cpp">
+      <Filter>Source\ConsoleResembling\HUD</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ConsoleHUD.h">
-      <Filter>Source\ConsoleResembling</Filter>
+    <ClInclude Include="..\..\Source\ConsoleResembling\HUD\ConsoleHUD.h">
+      <Filter>Source\ConsoleResembling\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Source\ConsoleResembling\Widgets">
+      <UniqueIdentifier>{8912BC06-444D-4C13-A55A-43680C993EBE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ConsoleResembling\Widgets\ConsoleWidget.cpp">
+      <Filter>Source\ConsoleResembling\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ConsoleResembling\Widgets\ConsoleWidget.h">
+      <Filter>Source\ConsoleResembling\Widgets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
