@@ -7,7 +7,8 @@
 #include "ConsoleHUD.generated.h"
 
 class UConsoleWidget;
-//class TQueue;
+class UConsoleMessage;
+class UConsoleMessageEntry;
 
 UCLASS()
 class CONSOLERESEMBLING_API AConsoleHUD : public AHUD
@@ -45,15 +46,37 @@ protected:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UConsoleWidget> ConsoleWidgetClass;
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UConsoleMessage> ConsoleMessageWidgetClass;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UConsoleMessageEntry> ConsoleMessageEntryWidgetClass;
+
 	UPROPERTY()
 	UConsoleWidget* ConsoleWidget;
 
-	/*UPROPERTY()
-	TQueue<UUserWidget*> MessageWidgetQueue;*/
+	UPROPERTY()
+	UConsoleMessage* ConsoleMessageWidget;
+
+	UPROPERTY()
+	UConsoleMessageEntry* ConsoleMessageEntryWidget;
+
+	TQueue<UConsoleMessage*> ConsoleMessageWidgetQueue;
+
+	bool ConsoleMessageEntryWidgetShown = false;
 
 	UFUNCTION()
 	void TextCommitted(const FText& Text, ETextCommit::Type CommitMethod);
 
-	void ShowConsoleEntryWidget();
+	void ShowConsoleMessageWidget();
+
+	void HideConsoleMessageWidget();
+
+	void ShowConsoleMessageEntryWidget();
+
+	void HideConsoleMessageEntryWidget();
+
+	UFUNCTION()
+	void PopWidgetFromQueueAndAddToVerBox();
 
 };

@@ -12,6 +12,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeConsoleResembling_init() {}
 	CONSOLERESEMBLING_API UFunction* Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature();
+	CONSOLERESEMBLING_API UFunction* Z_Construct_UDelegateFunction_UConsoleMessage_OnWidgetRemoved__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_ConsoleResembling()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -19,14 +20,15 @@ void EmptyLinkFunctionForGeneratedCodeConsoleResembling_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_UConsoleMessage_OnWidgetRemoved__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ConsoleResembling",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xAA64C477,
-				0x7BB0F577,
+				0xB67F5496,
+				0xA6783081,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

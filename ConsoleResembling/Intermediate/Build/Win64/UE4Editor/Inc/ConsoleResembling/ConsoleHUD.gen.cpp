@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	SLATECORE_API UEnum* Z_Construct_UEnum_SlateCore_ETextCommit();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CONSOLERESEMBLING_API UClass* Z_Construct_UClass_UConsoleWidget_NoRegister();
+	CONSOLERESEMBLING_API UClass* Z_Construct_UClass_UConsoleMessage_NoRegister();
+	CONSOLERESEMBLING_API UClass* Z_Construct_UClass_UConsoleMessageEntry_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature_Statics
 	{
@@ -62,6 +64,13 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		}
 		return ReturnFunction;
 	}
+	DEFINE_FUNCTION(AConsoleHUD::execPopWidgetFromQueueAndAddToVerBox)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->PopWidgetFromQueueAndAddToVerBox();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AConsoleHUD::execTextCommitted)
 	{
 		P_GET_PROPERTY_REF(FTextProperty,Z_Param_Out_Text);
@@ -75,9 +84,32 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	{
 		UClass* Class = AConsoleHUD::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "PopWidgetFromQueueAndAddToVerBox", &AConsoleHUD::execPopWidgetFromQueueAndAddToVerBox },
 			{ "TextCommitted", &AConsoleHUD::execTextCommitted },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AConsoleHUD, nullptr, "PopWidgetFromQueueAndAddToVerBox", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics
 	{
@@ -110,9 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "/*UPROPERTY()\n\x09TQueue<UUserWidget*> MessageWidgetQueue;*/" },
 		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
-		{ "ToolTip", "UPROPERTY()\n       TQueue<UUserWidget*> MessageWidgetQueue;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AConsoleHUD, nullptr, "TextCommitted", nullptr, nullptr, sizeof(ConsoleHUD_eventTextCommitted_Parms), Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams)) };
@@ -168,9 +198,25 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ConsoleWidgetClass;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConsoleMessageWidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ConsoleMessageWidgetClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConsoleMessageEntryWidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ConsoleMessageEntryWidgetClass;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConsoleWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ConsoleWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConsoleMessageWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ConsoleMessageWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConsoleMessageEntryWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ConsoleMessageEntryWidget;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -181,16 +227,15 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AConsoleHUD_Statics::FuncInfo[] = {
 		{ &Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature, "OnFormatStringSent__DelegateSignature" }, // 3102361795
-		{ &Z_Construct_UFunction_AConsoleHUD_TextCommitted, "TextCommitted" }, // 1565262938
+		{ &Z_Construct_UFunction_AConsoleHUD_PopWidgetFromQueueAndAddToVerBox, "PopWidgetFromQueueAndAddToVerBox" }, // 76138011
+		{ &Z_Construct_UFunction_AConsoleHUD_TextCommitted, "TextCommitted" }, // 1973048003
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "//class TQueue;\n" },
 		{ "HideCategories", "Rendering Actor Input Replication" },
 		{ "IncludePath", "HUD/ConsoleHUD.h" },
 		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
-		{ "ToolTip", "class TQueue;" },
 	};
 #endif
 #if WITH_METADATA
@@ -254,12 +299,40 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidgetClass = { "ConsoleWidgetClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleWidgetClass), Z_Construct_UClass_UConsoleWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidgetClass_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidgetClass_MetaData[] = {
+		{ "Category", "ConsoleHUD" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidgetClass = { "ConsoleMessageWidgetClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleMessageWidgetClass), Z_Construct_UClass_UConsoleMessage_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidgetClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidgetClass_MetaData[] = {
+		{ "Category", "ConsoleHUD" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidgetClass = { "ConsoleMessageEntryWidgetClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleMessageEntryWidgetClass), Z_Construct_UClass_UConsoleMessageEntry_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidgetClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget = { "ConsoleWidget", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleWidget), Z_Construct_UClass_UConsoleWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidget_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidget = { "ConsoleMessageWidget", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleMessageWidget), Z_Construct_UClass_UConsoleMessage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidget_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidget = { "ConsoleMessageEntryWidget", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleMessageEntryWidget), Z_Construct_UClass_UConsoleMessageEntry_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AConsoleHUD_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString,
@@ -268,7 +341,11 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidgetClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleMessageEntryWidget,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AConsoleHUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AConsoleHUD>::IsAbstract,
@@ -297,7 +374,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AConsoleHUD, 3380291721);
+	IMPLEMENT_CLASS(AConsoleHUD, 665244174);
 	template<> CONSOLERESEMBLING_API UClass* StaticClass<AConsoleHUD>()
 	{
 		return AConsoleHUD::StaticClass();

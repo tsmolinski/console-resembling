@@ -5,6 +5,13 @@
 #include "../Widgets/ConsoleWidget.h"
 #include "Components/EditableTextBox.h"
 #include "Containers/Queue.h"
+#include "../Widgets/ConsoleMessage.h"
+#include "Kismet/GameplayStatics.h"
+#include "../PlayerController/ConsolePlayerController.h"
+#include "../Widgets/ConsoleMessageEntry.h"
+
+#include "Blueprint/WidgetTree.h"
+#include "Components/VerticalBox.h"
 
 void AConsoleHUD::ShowConsoleWidget()
 {
@@ -92,10 +99,95 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 
 			OnFormatStringSent.Broadcast(Format);
 		}
+
+		if (!ConsoleMessageEntryWidgetShown)
+		{
+			ShowConsoleMessageEntryWidget();
+		}
+		
+		ShowConsoleMessageWidget();
+		
+		
+		//Add ConsoleMessageWidget as a child to ConsoleMessageEntryWidget's vertical box
+		UVerticalBox* VerBox = Cast<UVerticalBox>(ConsoleMessageEntryWidget->WidgetTree->FindWidget("EntryBox"));
+		if (VerBox->GetChildrenCount() < 4)
+		{
+			VerBox->AddChildToVerticalBox(ConsoleMessageWidget);
+		}
+		else
+		{
+			ConsoleMessageWidgetQueue.Enqueue(ConsoleMessageWidget);
+		}
+		
 	}
 }
 
-void AConsoleHUD::ShowConsoleEntryWidget()
+void AConsoleHUD::ShowConsoleMessageWidget()
 {
+	if (ConsoleMessageWidgetClass)
+	{
+		ConsoleMessageWidget = CreateWidget<UConsoleMessage>(GetWorld(), ConsoleMessageWidgetClass);
+	}
 
+	if (ConsoleMessageWidget)
+	{
+		//ConsoleMessageWidget->AddToViewport();
+		ConsoleMessageWidget->OnWidgetRemovedDelegate.AddDynamic(this, &AConsoleHUD::PopWidgetFromQueueAndAddToVerBox);
+	}
+}
+
+void AConsoleHUD::HideConsoleMessageWidget()
+{
+	if (ConsoleMessageWidget)
+	{
+		ConsoleMessageWidget->RemoveFromParent();
+		ConsoleMessageWidget->OnWidgetRemovedDelegate.RemoveDynamic(this, &AConsoleHUD::PopWidgetFromQueueAndAddToVerBox);
+	}
+}
+
+void AConsoleHUD::ShowConsoleMessageEntryWidget()
+{
+	if (ConsoleMessageEntryWidgetClass)
+	{
+		ConsoleMessageEntryWidget = CreateWidget<UConsoleMessageEntry>(GetWorld(), ConsoleMessageEntryWidgetClass);
+	}
+
+	if (ConsoleMessageEntryWidget)
+	{
+		ConsoleMessageEntryWidget->AddToViewport();
+
+		FInputModeGameAndUI InputModeGameAndUI;
+		if (AConsolePlayerController* ConsolePC = Cast<AConsolePlayerController>(UGameplayStatics::GetPlayerController(GetWorld(), 0)))
+		{
+			ConsolePC->SetInputMode(InputModeGameAndUI);
+		}
+
+		ConsoleMessageEntryWidgetShown = true;
+	}
+}
+
+void AConsoleHUD::HideConsoleMessageEntryWidget()
+{
+	if (ConsoleMessageEntryWidget)
+	{
+		ConsoleMessageEntryWidget->RemoveFromParent();
+
+		ConsoleMessageEntryWidgetShown = false;
+	}
+}
+
+void AConsoleHUD::PopWidgetFromQueueAndAddToVerBox()
+{
+	UVerticalBox* VerBox = Cast<UVerticalBox>(ConsoleMessageEntryWidget->WidgetTree->FindWidget("EntryBox"));
+
+	if (VerBox->GetChildrenCount() < 4)
+	{
+		//UConsoleMessage* TempWidget = CreateWidget<UConsoleMessage>(GetWorld(), ConsoleMessageWidgetClass);
+		if (!ConsoleMessageWidgetQueue.IsEmpty())
+		{
+			ConsoleMessageWidgetQueue.Dequeue(ConsoleMessageWidget);
+
+			VerBox->AddChildToVerticalBox(ConsoleMessageWidget);
+		}
+	}
 }
