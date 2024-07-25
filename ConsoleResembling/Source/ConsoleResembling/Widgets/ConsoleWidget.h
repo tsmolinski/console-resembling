@@ -15,8 +15,5 @@ class CONSOLERESEMBLING_API UConsoleWidget : public UUserWidget
 
 public:
 	UPROPERTY(meta = (BindWidget))
-	//UEditableTextBlock* EditableTextBlock;
-	UEditableTextBox* EditableTextBlock;
-	//UEditableText* EditableTextBlock;
-
+	UEditableTextBox* EditableTextBox;
 };

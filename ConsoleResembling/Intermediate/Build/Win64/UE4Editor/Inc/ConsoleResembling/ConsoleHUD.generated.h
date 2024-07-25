@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CONSOLERESEMBLING_ConsoleHUD_generated_h
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_SPARSE_DATA
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_RPC_WRAPPERS
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_INCLASS_NO_PURE_DECLS \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_SPARSE_DATA
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTextCommitted);
+
+
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTextCommitted);
+
+
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAConsoleHUD(); \
 	friend struct Z_Construct_UClass_AConsoleHUD_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AConsoleHUD)
 
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_INCLASS \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAConsoleHUD(); \
 	friend struct Z_Construct_UClass_AConsoleHUD_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(AConsoleHUD)
 
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_STANDARD_CONSTRUCTORS \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AConsoleHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AConsoleHUD) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_ENHANCED_CONSTRUCTORS \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AConsoleHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,32 +68,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AConsoleHUD); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AConsoleHUD)
 
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_PRIVATE_PROPERTY_OFFSET \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ConsoleWidgetClass() { return STRUCT_OFFSET(AConsoleHUD, ConsoleWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__ConsoleWidget() { return STRUCT_OFFSET(AConsoleHUD, ConsoleWidget); }
 
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_11_PROLOG
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_GENERATED_BODY_LEGACY \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_PROLOG
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_PRIVATE_PROPERTY_OFFSET \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_SPARSE_DATA \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_RPC_WRAPPERS \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_INCLASS \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_STANDARD_CONSTRUCTORS \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_PRIVATE_PROPERTY_OFFSET \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_SPARSE_DATA \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_RPC_WRAPPERS \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_INCLASS \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_GENERATED_BODY \
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_PRIVATE_PROPERTY_OFFSET \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_SPARSE_DATA \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_INCLASS_NO_PURE_DECLS \
-	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_14_ENHANCED_CONSTRUCTORS \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_PRIVATE_PROPERTY_OFFSET \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_SPARSE_DATA \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_INCLASS_NO_PURE_DECLS \
+	ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

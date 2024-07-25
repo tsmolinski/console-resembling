@@ -17,11 +17,72 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	CONSOLERESEMBLING_API UClass* Z_Construct_UClass_AConsoleHUD();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	UPackage* Z_Construct_UPackage__Script_ConsoleResembling();
+	SLATECORE_API UEnum* Z_Construct_UEnum_SlateCore_ETextCommit();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CONSOLERESEMBLING_API UClass* Z_Construct_UClass_UConsoleWidget_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AConsoleHUD::execTextCommitted)
+	{
+		P_GET_PROPERTY_REF(FTextProperty,Z_Param_Out_Text);
+		P_GET_PROPERTY(FByteProperty,Z_Param_CommitMethod);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->TextCommitted(Z_Param_Out_Text,ETextCommit::Type(Z_Param_CommitMethod));
+		P_NATIVE_END;
+	}
 	void AConsoleHUD::StaticRegisterNativesAConsoleHUD()
 	{
+		UClass* Class = AConsoleHUD::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "TextCommitted", &AConsoleHUD::execTextCommitted },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics
+	{
+		struct ConsoleHUD_eventTextCommitted_Parms
+		{
+			FText Text;
+			TEnumAsByte<ETextCommit::Type> CommitMethod;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_Text;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CommitMethod;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_Text_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ConsoleHUD_eventTextCommitted_Parms, Text), METADATA_PARAMS(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_Text_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_CommitMethod = { "CommitMethod", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ConsoleHUD_eventTextCommitted_Parms, CommitMethod), Z_Construct_UEnum_SlateCore_ETextCommit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_Text,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::NewProp_CommitMethod,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//TObjectPtr<FString> SourceMessage;\n//FString* SourceMessage;\n" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+		{ "ToolTip", "TObjectPtr<FString> SourceMessage;\nFString* SourceMessage;" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AConsoleHUD, nullptr, "TextCommitted", nullptr, nullptr, sizeof(ConsoleHUD_eventTextCommitted_Parms), Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AConsoleHUD_TextCommitted()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AConsoleHUD_NoRegister()
 	{
@@ -30,6 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	struct Z_Construct_UClass_AConsoleHUD_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -48,6 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	UObject* (*const Z_Construct_UClass_AConsoleHUD_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AHUD,
 		(UObject* (*)())Z_Construct_UPackage__Script_ConsoleResembling,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AConsoleHUD_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AConsoleHUD_TextCommitted, "TextCommitted" }, // 2145957108
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::Class_MetaDataParams[] = {
@@ -83,11 +148,11 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AConsoleHUD_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::PropPointers),
 		0,
 		0x009002ACu,
@@ -102,7 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AConsoleHUD, 2528162687);
+	IMPLEMENT_CLASS(AConsoleHUD, 813836240);
 	template<> CONSOLERESEMBLING_API UClass* StaticClass<AConsoleHUD>()
 	{
 		return AConsoleHUD::StaticClass();

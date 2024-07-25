@@ -1,14 +1,23 @@
-﻿Build started 25.07.2024 00:26:16.
+﻿Build started 25.07.2024 13:08:32.
 Logging verbosity is set to: Normal.     1>Project "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\ProjectFiles\ConsoleResembling.vcxproj" on node 2 (Build target(s)).
      1>Build:
          "C:\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" ConsoleResemblingEditor Win64 Development -Project="C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\ConsoleResembling.uproject" -WaitMutex -FromMsBuild
          Using 'git status' to determine working set for adaptive non-unity build (C:\UE4.26.2_Projects\console-resembling).
-         Target is up to date
-         Total execution time: 1,23 seconds
+         Building ConsoleResemblingEditor...
+         Using Visual Studio 2019 14.27.29112 toolchain (C:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Windows Kits\10).
+         Building 4 actions with 4 processes...
+           [1/4] ConsoleHUD.cpp
+           [2/4] UE4Editor-ConsoleResembling.lib
+              Creating library C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.lib and object C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.exp
+           [3/4] UE4Editor-ConsoleResembling.dll
+              Creating library C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.suppressed.lib and object C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.suppressed.exp
+           [4/4] ConsoleResemblingEditor.target
+         Total time in Parallel executor: 6,66 seconds
+         Total execution time: 8,04 seconds
      1>Done Building Project "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\ProjectFiles\ConsoleResembling.vcxproj" (Build target(s)).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.45
+Time Elapsed 00:00:08.25

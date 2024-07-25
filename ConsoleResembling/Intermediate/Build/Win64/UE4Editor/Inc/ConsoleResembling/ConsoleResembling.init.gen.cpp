@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleResembling_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA77C4928,
+				0xCCF9A674,
 				0xDC0B38A2,
 				METADATA_PARAMS(nullptr, 0)
 			};
