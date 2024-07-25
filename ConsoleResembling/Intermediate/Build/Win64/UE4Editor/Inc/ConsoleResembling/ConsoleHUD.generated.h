@@ -13,6 +13,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CONSOLERESEMBLING_ConsoleHUD_generated_h
 
+#define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_20_DELEGATE \
+struct ConsoleHUD_eventOnFormatStringSent_Parms \
+{ \
+	FString FormatString; \
+}; \
+static inline void FOnFormatStringSent_DelegateWrapper(const FMulticastScriptDelegate& OnFormatStringSent, const FString& FormatString) \
+{ \
+	ConsoleHUD_eventOnFormatStringSent_Parms Parms; \
+	Parms.FormatString=FormatString; \
+	OnFormatStringSent.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
 #define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_SPARSE_DATA
 #define ConsoleResembling_Source_ConsoleResembling_HUD_ConsoleHUD_h_17_RPC_WRAPPERS \
  \

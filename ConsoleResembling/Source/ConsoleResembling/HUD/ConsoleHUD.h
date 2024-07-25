@@ -15,11 +15,20 @@ UCLASS()
 class CONSOLERESEMBLING_API AConsoleHUD : public AHUD
 {
 	GENERATED_BODY()
+
+public:
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnFormatStringSent, const FString&, FormatString);
 	
 public:
 	void ShowConsoleWidget();
 
 	void HideConsoleWidget();
+
+	UPROPERTY(BlueprintReadOnly)
+	FString FormatString;
+
+	UPROPERTY(BlueprintAssignable)
+	FOnFormatStringSent OnFormatStringSent;
 
 protected:
 	UPROPERTY(EditAnywhere)

@@ -64,9 +64,26 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 			{
 				Format = Format.TrimStart();
 				Format = Format.TrimEnd();
-				UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start): %s"), *SourceMessage);
+				//UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start): %s"), *SourceMessage);
 			}
-			//UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start): %s"), *SourceMessage);
+
+			if (Format.StartsWith("("))
+			{
+				Format = Format.Mid(1, Format.Len());
+			}
+
+			if (Format.EndsWith(")"))
+			{
+				Format = Format.Mid(0, Format.Len() - 1);
+			}
+			//UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start, after deleting ()): %s"), *Format);
+
+			FormatString = Format;
+
+			OnFormatStringSent.Broadcast(Format);
+
+			//const FString CommaStr = ",";
+
 		}
 	}
 }
