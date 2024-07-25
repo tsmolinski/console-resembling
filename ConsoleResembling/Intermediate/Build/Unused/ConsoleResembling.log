@@ -1,14 +1,31 @@
-﻿Build started 25.07.2024 14:52:52.
+﻿Build started 25.07.2024 21:21:15.
 Logging verbosity is set to: Normal.     1>Project "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\ProjectFiles\ConsoleResembling.vcxproj" on node 2 (Build target(s)).
      1>Build:
          "C:\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" ConsoleResemblingEditor Win64 Development -Project="C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\ConsoleResembling.uproject" -WaitMutex -FromMsBuild
          Using 'git status' to determine working set for adaptive non-unity build (C:\UE4.26.2_Projects\console-resembling).
-         Target is up to date
-         Total execution time: 1,16 seconds
+         Deleted hot-reload file: C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Binaries\Win64\UE4Editor-ConsoleResembling-0001.dll
+         Deleted hot-reload file: C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling-0001.lib
+         Failed to delete file 'C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Binaries\Win64\UE4Editor-ConsoleResembling.pdb'
+             Exception: Proces nie może uzyskać dostępu do pliku "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Binaries\Win64\UE4Editor-ConsoleResembling.pdb", ponieważ jest on używany przez inny proces.
+         Attempting to retry...
+         Failed to delete file 'C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Binaries\Win64\UE4Editor-ConsoleResembling.pdb'
+             Exception: Proces nie może uzyskać dostępu do pliku "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Binaries\Win64\UE4Editor-ConsoleResembling.pdb", ponieważ jest on używany przez inny proces.
+         Attempting to retry...
+         Building ConsoleResemblingEditor...
+         Using Visual Studio 2019 14.27.29112 toolchain (C:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Windows Kits\10).
+         Building 4 actions with 4 processes...
+           [1/4] ConsoleMessage.cpp
+           [2/4] UE4Editor-ConsoleResembling.lib
+              Creating library C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.lib and object C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.exp
+           [3/4] UE4Editor-ConsoleResembling.dll
+              Creating library C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.suppressed.lib and object C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\Build\Win64\UE4Editor\Development\ConsoleResembling\UE4Editor-ConsoleResembling.suppressed.exp
+           [4/4] ConsoleResemblingEditor.target
+         Total time in Parallel executor: 39,29 seconds
+         Total execution time: 44,20 seconds
      1>Done Building Project "C:\UE4.26.2_Projects\console-resembling\ConsoleResembling\Intermediate\ProjectFiles\ConsoleResembling.vcxproj" (Build target(s)).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.40
+Time Elapsed 00:00:45.11

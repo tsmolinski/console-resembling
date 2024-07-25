@@ -4,12 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-
-#include "Delegates/DelegateSignatureImpl.inl"
-
 #include "ConsoleHUD.generated.h"
 
 class UConsoleWidget;
+//class TQueue;
 
 UCLASS()
 class CONSOLERESEMBLING_API AConsoleHUD : public AHUD
@@ -24,11 +22,24 @@ public:
 
 	void HideConsoleWidget();
 
+	UPROPERTY(BlueprintAssignable)
+	FOnFormatStringSent OnFormatStringSent;
+
 	UPROPERTY(BlueprintReadOnly)
 	FString FormatString;
 
-	UPROPERTY(BlueprintAssignable)
-	FOnFormatStringSent OnFormatStringSent;
+	UPROPERTY(BlueprintReadOnly)
+	FString MessageString;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool ShouldFlush = false;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool ShowVictory = false;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool HasFormat = false;
+
 
 protected:
 	UPROPERTY(EditAnywhere)
@@ -37,10 +48,12 @@ protected:
 	UPROPERTY()
 	UConsoleWidget* ConsoleWidget;
 
-	//TObjectPtr<FString> SourceMessage;
-	//FString* SourceMessage;
+	/*UPROPERTY()
+	TQueue<UUserWidget*> MessageWidgetQueue;*/
 
 	UFUNCTION()
 	void TextCommitted(const FText& Text, ETextCommit::Type CommitMethod);
+
+	void ShowConsoleEntryWidget();
 
 };

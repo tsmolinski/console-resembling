@@ -4,6 +4,7 @@
 #include "ConsoleHUD.h"
 #include "../Widgets/ConsoleWidget.h"
 #include "Components/EditableTextBox.h"
+#include "Containers/Queue.h"
 
 void AConsoleHUD::ShowConsoleWidget()
 {
@@ -44,6 +45,8 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 			TCHAR* BlankChar = TEXT("");
 			SourceMessage = SourceMessage.Replace(FlushChar, BlankChar);
 			//UE_LOG(LogTemp, Warning, TEXT("Message text after FlushRemove: %s"), *SourceMessage);
+
+			ShouldFlush = true;
 		}
 
 		const FString VictoryStr = "-Victory";
@@ -53,17 +56,24 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 			TCHAR* BlankChar = TEXT("");
 			SourceMessage = SourceMessage.Replace(VictoryChar, BlankChar);
 			//UE_LOG(LogTemp, Warning, TEXT("Message text after VictoryRemove: %s"), *SourceMessage);
+
+			ShowVictory = true;
 		}
+
+		MessageString = SourceMessage;
 
 		const FString FormatStr = "-Format";
 		FString Message;
 		FString Format;
 		if (SourceMessage.Contains(FormatStr))
 		{
+			HasFormat = true;
+
 			if (SourceMessage.Split(FormatStr, &Message, &Format))
 			{
 				Format = Format.TrimStart();
 				Format = Format.TrimEnd();
+				MessageString = Message;
 				//UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start): %s"), *SourceMessage);
 			}
 
@@ -81,9 +91,11 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 			FormatString = Format;
 
 			OnFormatStringSent.Broadcast(Format);
-
-			//const FString CommaStr = ",";
-
 		}
 	}
+}
+
+void AConsoleHUD::ShowConsoleEntryWidget()
+{
+
 }

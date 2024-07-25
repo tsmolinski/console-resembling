@@ -110,9 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//TObjectPtr<FString> SourceMessage;\n//FString* SourceMessage;\n" },
+		{ "Comment", "/*UPROPERTY()\n\x09TQueue<UUserWidget*> MessageWidgetQueue;*/" },
 		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
-		{ "ToolTip", "TObjectPtr<FString> SourceMessage;\nFString* SourceMessage;" },
+		{ "ToolTip", "UPROPERTY()\n       TQueue<UUserWidget*> MessageWidgetQueue;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AConsoleHUD, nullptr, "TextCommitted", nullptr, nullptr, sizeof(ConsoleHUD_eventTextCommitted_Parms), Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AConsoleHUD_TextCommitted_Statics::Function_MetaDataParams)) };
@@ -137,13 +137,32 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnFormatStringSent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnFormatStringSent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FormatString_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_FormatString;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnFormatStringSent_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MessageString_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnFormatStringSent;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_MessageString;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShouldFlush_MetaData[];
+#endif
+		static void NewProp_ShouldFlush_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShouldFlush;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShowVictory_MetaData[];
+#endif
+		static void NewProp_ShowVictory_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShowVictory;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HasFormat_MetaData[];
+#endif
+		static void NewProp_HasFormat_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_HasFormat;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConsoleWidgetClass_MetaData[];
 #endif
@@ -162,16 +181,24 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AConsoleHUD_Statics::FuncInfo[] = {
 		{ &Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature, "OnFormatStringSent__DelegateSignature" }, // 3102361795
-		{ &Z_Construct_UFunction_AConsoleHUD_TextCommitted, "TextCommitted" }, // 2145957108
+		{ &Z_Construct_UFunction_AConsoleHUD_TextCommitted, "TextCommitted" }, // 1565262938
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "//class TQueue;\n" },
 		{ "HideCategories", "Rendering Actor Input Replication" },
 		{ "IncludePath", "HUD/ConsoleHUD.h" },
 		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+		{ "ToolTip", "class TQueue;" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent_MetaData[] = {
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent = { "OnFormatStringSent", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, OnFormatStringSent), Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString_MetaData[] = {
 		{ "Category", "ConsoleHUD" },
@@ -180,11 +207,45 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString = { "FormatString", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, FormatString), METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_MessageString_MetaData[] = {
+		{ "Category", "ConsoleHUD" },
 		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent = { "OnFormatStringSent", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, OnFormatStringSent), Z_Construct_UDelegateFunction_AConsoleHUD_OnFormatStringSent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_MessageString = { "MessageString", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, MessageString), METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_MessageString_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_MessageString_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush_MetaData[] = {
+		{ "Category", "ConsoleHUD" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	void Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush_SetBit(void* Obj)
+	{
+		((AConsoleHUD*)Obj)->ShouldFlush = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush = { "ShouldFlush", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AConsoleHUD), &Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush_SetBit, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory_MetaData[] = {
+		{ "Category", "ConsoleHUD" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	void Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory_SetBit(void* Obj)
+	{
+		((AConsoleHUD*)Obj)->ShowVictory = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory = { "ShowVictory", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AConsoleHUD), &Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory_SetBit, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat_MetaData[] = {
+		{ "Category", "ConsoleHUD" },
+		{ "ModuleRelativePath", "HUD/ConsoleHUD.h" },
+	};
+#endif
+	void Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat_SetBit(void* Obj)
+	{
+		((AConsoleHUD*)Obj)->HasFormat = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat = { "HasFormat", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AConsoleHUD), &Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat_SetBit, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidgetClass_MetaData[] = {
 		{ "Category", "ConsoleHUD" },
@@ -200,8 +261,12 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget = { "ConsoleWidget", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AConsoleHUD, ConsoleWidget), Z_Construct_UClass_UConsoleWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AConsoleHUD_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_OnFormatStringSent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_FormatString,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_MessageString,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShouldFlush,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ShowVictory,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_HasFormat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidgetClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AConsoleHUD_Statics::NewProp_ConsoleWidget,
 	};
@@ -232,7 +297,7 @@ void EmptyLinkFunctionForGeneratedCodeConsoleHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AConsoleHUD, 644689283);
+	IMPLEMENT_CLASS(AConsoleHUD, 3380291721);
 	template<> CONSOLERESEMBLING_API UClass* StaticClass<AConsoleHUD>()
 	{
 		return AConsoleHUD::StaticClass();

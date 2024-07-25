@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ConsoleResembling.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{110D496A-7391-4A21-9CE6-331DBA985800}</UniqueIdentifier>
+      <UniqueIdentifier>{0016E8B6-F5E1-449C-83BD-80158911EBC4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ConsoleResembling.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B9C1C5B2-B7F1-4440-B325-6AEE75C08790}</UniqueIdentifier>
+      <UniqueIdentifier>{8075A080-E216-49C4-BD00-34B83CCC6CC4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ConsoleResembling">
-      <UniqueIdentifier>{A7FF46B6-7F57-4DB8-8D3C-79B887188B56}</UniqueIdentifier>
+      <UniqueIdentifier>{7D4451A5-7AB9-448F-974D-E74AF4DBE031}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ConsoleResembling\ConsoleResembling.Build.cs">
       <Filter>Source\ConsoleResembling</Filter>
@@ -42,7 +42,7 @@
       <Filter>Source\ConsoleResembling</Filter>
     </ClInclude>
     <Filter Include="Source\ConsoleResembling\HUD">
-      <UniqueIdentifier>{F6A43EDD-CC98-4D1A-9458-FB22327FE16F}</UniqueIdentifier>
+      <UniqueIdentifier>{7C7FCB0C-F47A-473A-BC46-18EE0FC99F14}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ConsoleResembling\HUD\ConsoleHUD.cpp">
       <Filter>Source\ConsoleResembling\HUD</Filter>
@@ -51,7 +51,7 @@
       <Filter>Source\ConsoleResembling\HUD</Filter>
     </ClInclude>
     <Filter Include="Source\ConsoleResembling\PlayerController">
-      <UniqueIdentifier>{533203ED-12B8-42C3-A602-2A627B407C40}</UniqueIdentifier>
+      <UniqueIdentifier>{B521D7C0-34B0-455B-9C01-990FC291E255}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ConsoleResembling\PlayerController\ConsolePlayerController.cpp">
       <Filter>Source\ConsoleResembling\PlayerController</Filter>
@@ -60,8 +60,14 @@
       <Filter>Source\ConsoleResembling\PlayerController</Filter>
     </ClInclude>
     <Filter Include="Source\ConsoleResembling\Widgets">
-      <UniqueIdentifier>{4EC761A2-D9BD-4FCC-88F9-61CC99C28DC9}</UniqueIdentifier>
+      <UniqueIdentifier>{50C7D2DA-40E0-466C-925B-A34AB402EE5A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ConsoleResembling\Widgets\ConsoleMessage.cpp">
+      <Filter>Source\ConsoleResembling\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ConsoleResembling\Widgets\ConsoleMessage.h">
+      <Filter>Source\ConsoleResembling\Widgets</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ConsoleResembling\Widgets\ConsoleWidget.cpp">
       <Filter>Source\ConsoleResembling\Widgets</Filter>
     </ClCompile>
