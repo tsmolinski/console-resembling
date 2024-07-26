@@ -88,5 +88,4 @@ protected:
 	void FlushQueue();
 
 	void ShowConsoleVictoryScreen();
-
 };

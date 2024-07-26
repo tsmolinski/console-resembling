@@ -44,30 +44,31 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 		ConsoleWidget->EditableTextBox->SetText(Text);
 		UE_LOG(LogTemp, Warning, TEXT("Message text: %s"), *SourceMessage);
 
+		//Remove -Flush string from the message and change flag ShouldFlush
 		const FString FlushStr = "-Flush";
 		if (SourceMessage.Contains(FlushStr))
 		{
 			TCHAR* FlushChar = TEXT("-Flush");
 			TCHAR* BlankChar = TEXT("");
 			SourceMessage = SourceMessage.Replace(FlushChar, BlankChar);
-			//UE_LOG(LogTemp, Warning, TEXT("Message text after FlushRemove: %s"), *SourceMessage);
 
 			ShouldFlush = true;
 		}
 
+		//Remove -Victory string from the message and change flag ShowVictory
 		const FString VictoryStr = "-Victory";
 		if (SourceMessage.Contains(VictoryStr))
 		{
 			TCHAR* VictoryChar = TEXT("-Victory");
 			TCHAR* BlankChar = TEXT("");
 			SourceMessage = SourceMessage.Replace(VictoryChar, BlankChar);
-			//UE_LOG(LogTemp, Warning, TEXT("Message text after VictoryRemove: %s"), *SourceMessage);
 
 			ShowVictory = true;
 		}
 
 		MessageString = SourceMessage;
 
+		//Parse -Format string and change flag HasFormat
 		const FString FormatStr = "-Format";
 		FString Message;
 		FString Format;
@@ -80,25 +81,26 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 				Format = Format.TrimStart();
 				Format = Format.TrimEnd();
 				MessageString = Message;
-				//UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start): %s"), *SourceMessage);
 			}
 
 			if (Format.StartsWith("("))
 			{
+				//Remove first index
 				Format = Format.Mid(1, Format.Len());
 			}
 
 			if (Format.EndsWith(")"))
 			{
+				//Remove last index
 				Format = Format.Mid(0, Format.Len() - 1);
 			}
-			//UE_LOG(LogTemp, Warning, TEXT("Format(split from message and trim end/start, after deleting ()): %s"), *Format);
 
 			FormatString = Format;
 
 			OnFormatStringSent.Broadcast(Format);
 		}
 
+		//Show appropriate widget
 		if (!ShowVictory)
 		{
 			if (!ConsoleMessageEntryWidgetShown)
@@ -108,8 +110,6 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 
 			ShowConsoleMessageWidget();
 
-
-			//Add ConsoleMessageWidget as a child to ConsoleMessageEntryWidget's vertical box
 			UVerticalBox* VerBox = Cast<UVerticalBox>(ConsoleMessageEntryWidget->WidgetTree->FindWidget("EntryBox"));
 			if (VerBox->GetChildrenCount() < 4)
 			{
@@ -128,6 +128,10 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 		
 		
 		FlushQueue();
+
+		SourceMessage = "";
+
+		HasFormat = false;
 	}
 }
 
@@ -140,7 +144,6 @@ void AConsoleHUD::ShowConsoleMessageWidget()
 
 	if (ConsoleMessageWidget)
 	{
-		//ConsoleMessageWidget->AddToViewport();
 		ConsoleMessageWidget->OnWidgetRemovedDelegate.AddDynamic(this, &AConsoleHUD::PopWidgetFromQueueAndAddToVerBox);
 	}
 }
@@ -220,7 +223,6 @@ void AConsoleHUD::PopWidgetFromQueueAndAddToVerBox()
 
 	if (VerBox->GetChildrenCount() < 4)
 	{
-		//UConsoleMessage* TempWidget = CreateWidget<UConsoleMessage>(GetWorld(), ConsoleMessageWidgetClass);
 		if (!ConsoleMessageWidgetQueue.IsEmpty())
 		{
 			ConsoleMessageWidgetQueue.Dequeue(ConsoleMessageWidget);

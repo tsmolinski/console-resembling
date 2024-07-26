@@ -30,8 +30,6 @@ void UMessageWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 {
 	Super::NativeTick(MyGeometry, InDeltaTime);
 
-    Super::NativeTick(MyGeometry, InDeltaTime);
-
     if (CurrentLifetime > 0.0)
     {
         CurrentLifetime -= InDeltaTime;
