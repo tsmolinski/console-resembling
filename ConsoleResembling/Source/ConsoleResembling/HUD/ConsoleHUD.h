@@ -7,7 +7,7 @@
 #include "ConsoleHUD.generated.h"
 
 class UConsoleWidget;
-class UConsoleMessage;
+class UMessageWidget;
 class UConsoleMessageEntry;
 
 UCLASS()
@@ -47,26 +47,35 @@ protected:
 	TSubclassOf<UConsoleWidget> ConsoleWidgetClass;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<UConsoleMessage> ConsoleMessageWidgetClass;
+	TSubclassOf<UMessageWidget> ConsoleMessageWidgetClass;
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UConsoleMessageEntry> ConsoleMessageEntryWidgetClass;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UUserWidget> ConsoleVictoryWidgetClass;
 
 	UPROPERTY()
 	UConsoleWidget* ConsoleWidget;
 
 	UPROPERTY()
-	UConsoleMessage* ConsoleMessageWidget;
+	UMessageWidget* ConsoleMessageWidget;
 
 	UPROPERTY()
-	UConsoleMessageEntry* ConsoleMessageEntryWidget;
+	UUserWidget* ConsoleVictoryWidget;
 
-	TQueue<UConsoleMessage*> ConsoleMessageWidgetQueue;
+	UPROPERTY()
+	UUserWidget* ConsoleMessageEntryWidget;
+
+	TQueue<UMessageWidget*> ConsoleMessageWidgetQueue;
 
 	bool ConsoleMessageEntryWidgetShown = false;
 
 	UFUNCTION()
 	void TextCommitted(const FText& Text, ETextCommit::Type CommitMethod);
+
+	UFUNCTION()
+	void PopWidgetFromQueueAndAddToVerBox();
 
 	void ShowConsoleMessageWidget();
 
@@ -76,7 +85,8 @@ protected:
 
 	void HideConsoleMessageEntryWidget();
 
-	UFUNCTION()
-	void PopWidgetFromQueueAndAddToVerBox();
+	void FlushQueue();
+
+	void ShowConsoleVictoryScreen();
 
 };

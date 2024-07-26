@@ -5,11 +5,10 @@
 #include "../Widgets/ConsoleWidget.h"
 #include "Components/EditableTextBox.h"
 #include "Containers/Queue.h"
-#include "../Widgets/ConsoleMessage.h"
+#include "../Widgets/MessageWidget.h"
 #include "Kismet/GameplayStatics.h"
 #include "../PlayerController/ConsolePlayerController.h"
 #include "../Widgets/ConsoleMessageEntry.h"
-
 #include "Blueprint/WidgetTree.h"
 #include "Components/VerticalBox.h"
 
@@ -100,25 +99,35 @@ void AConsoleHUD::TextCommitted(const FText& Text, ETextCommit::Type CommitMetho
 			OnFormatStringSent.Broadcast(Format);
 		}
 
-		if (!ConsoleMessageEntryWidgetShown)
+		if (!ShowVictory)
 		{
-			ShowConsoleMessageEntryWidget();
-		}
-		
-		ShowConsoleMessageWidget();
-		
-		
-		//Add ConsoleMessageWidget as a child to ConsoleMessageEntryWidget's vertical box
-		UVerticalBox* VerBox = Cast<UVerticalBox>(ConsoleMessageEntryWidget->WidgetTree->FindWidget("EntryBox"));
-		if (VerBox->GetChildrenCount() < 4)
-		{
-			VerBox->AddChildToVerticalBox(ConsoleMessageWidget);
+			if (!ConsoleMessageEntryWidgetShown)
+			{
+				ShowConsoleMessageEntryWidget();
+			}
+
+			ShowConsoleMessageWidget();
+
+
+			//Add ConsoleMessageWidget as a child to ConsoleMessageEntryWidget's vertical box
+			UVerticalBox* VerBox = Cast<UVerticalBox>(ConsoleMessageEntryWidget->WidgetTree->FindWidget("EntryBox"));
+			if (VerBox->GetChildrenCount() < 4)
+			{
+				VerBox->AddChildToVerticalBox(ConsoleMessageWidget);
+			}
+			else
+			{
+				ConsoleMessageWidgetQueue.Enqueue(ConsoleMessageWidget);
+			}
 		}
 		else
 		{
-			ConsoleMessageWidgetQueue.Enqueue(ConsoleMessageWidget);
+			ShowConsoleVictoryScreen();
+			ShowVictory = false;
 		}
 		
+		
+		FlushQueue();
 	}
 }
 
@@ -126,7 +135,7 @@ void AConsoleHUD::ShowConsoleMessageWidget()
 {
 	if (ConsoleMessageWidgetClass)
 	{
-		ConsoleMessageWidget = CreateWidget<UConsoleMessage>(GetWorld(), ConsoleMessageWidgetClass);
+		ConsoleMessageWidget = CreateWidget<UMessageWidget>(GetWorld(), ConsoleMessageWidgetClass);
 	}
 
 	if (ConsoleMessageWidget)
@@ -173,6 +182,35 @@ void AConsoleHUD::HideConsoleMessageEntryWidget()
 		ConsoleMessageEntryWidget->RemoveFromParent();
 
 		ConsoleMessageEntryWidgetShown = false;
+	}
+}
+
+void AConsoleHUD::FlushQueue()
+{
+	if (ShouldFlush)
+	{
+		ConsoleMessageWidgetQueue.Empty();
+		
+		ShouldFlush = false;
+	}
+}
+
+void AConsoleHUD::ShowConsoleVictoryScreen()
+{
+	if (ConsoleVictoryWidgetClass)
+	{
+		ConsoleVictoryWidget = CreateWidget<UUserWidget>(GetWorld(), ConsoleVictoryWidgetClass);
+	}
+
+	if (ConsoleVictoryWidget)
+	{
+		ConsoleVictoryWidget->AddToViewport();
+
+		FInputModeGameAndUI InputModeGameAndUI;
+		if (AConsolePlayerController* ConsolePC = Cast<AConsolePlayerController>(UGameplayStatics::GetPlayerController(GetWorld(), 0)))
+		{
+			ConsolePC->SetInputMode(InputModeGameAndUI);
+		}
 	}
 }
 
